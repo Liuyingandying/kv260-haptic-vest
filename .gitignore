@@ -1,0 +1,39 @@
+# Vivado / Xilinx build products
+.Xil/
+*.cache/
+*.runs/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.jou
+*.log
+*.pb
+*.os
+*.str
+*.dcp
+*.wdb
+*.vcd
+*.bit
+*.bit.bin
+*.xsa
+*.BIN
+*.bin
+*.elf
+*.wdt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.pem
+*.key

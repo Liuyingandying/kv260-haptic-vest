@@ -1,0 +1,934 @@
+{
+  "schema": "kv260_haptic_manifest_2bfinal",
+  "date": "2026-11-01",
+  "phase": "2B-FINAL",
+  "file_count": 169,
+  "total_bytes": 55212825,
+  "files": [
+    {
+      "path": "audit/audit_console.log",
+      "bytes": 4498,
+      "sha256": "c74a6e57fca5a7e5667492c208e69f1aae9d8c1de5d4f06e36a31c4813aedd10"
+    },
+    {
+      "path": "audit/audit_console2.log",
+      "bytes": 4500,
+      "sha256": "f6bd1c94e279022d9b6afb46a2015500daceebb3b31046b42efe8443bf1dd5b0"
+    },
+    {
+      "path": "audit/audit_console3.log",
+      "bytes": 4500,
+      "sha256": "740273d660e61b3e92cb1cea0e387e05a7c31005a910ea70be834ac72be363d5"
+    },
+    {
+      "path": "audit/audit_decode.log",
+      "bytes": 14630,
+      "sha256": "5ee1f180dce783453f7cecf48766010f2ff80e6a67c3b2bc3a30e089f0a1f85b"
+    },
+    {
+      "path": "audit/audit_final.log",
+      "bytes": 2283,
+      "sha256": "cf8e5ca1984176d128f9ba5d34dc016a7bda3f348b4da9857680acf240cf977e"
+    },
+    {
+      "path": "audit/audit_summary.txt",
+      "bytes": 1357,
+      "sha256": "e960e759008649e034dedd8191c11d6a8c9e461a915434fdddf81f801b69c3a3"
+    },
+    {
+      "path": "audit/tb_audit_decoder.v",
+      "bytes": 17441,
+      "sha256": "4720723275420f862f49503190f28e971bcf64998b0dc7de29ed318b2267280d"
+    },
+    {
+      "path": "constraints/kv260_haptic_j2_candidate.xdc",
+      "bytes": 4944,
+      "sha256": "b80553d48f790ff31a9d6c466d36eebba93183bce9199d7e515c902547e37b0b"
+    },
+    {
+      "path": "constraints/kv260_haptic_j2_candidate_v2.xdc",
+      "bytes": 3499,
+      "sha256": "189e39f67e0e2f80e056be3e94eeb690b69bc0de2b290e701a2295db1b3c9ed7"
+    },
+    {
+      "path": "diag/fault_first_trigger.log",
+      "bytes": 635,
+      "sha256": "5191ee7134dc5e6c25acfef1aaf39d5a59b35ba2ddb3f79a787dab06fcf4d9e9"
+    },
+    {
+      "path": "diag/init_event_timeline.csv",
+      "bytes": 220079,
+      "sha256": "74bcd401dabe54f008027e7334323a0eacae5e771526c53634e8577c5c79757e"
+    },
+    {
+      "path": "diag/init_signal_trace.vcd",
+      "bytes": 41231744,
+      "sha256": "bab4eb9a86b8211c5be471799c135db92c6ec6d107d3f9e51ef348776639c9de"
+    },
+    {
+      "path": "logs/cdc.rpt",
+      "bytes": 970,
+      "sha256": "8e6628897a9c34c516c0de01ae3dd9c549c8127d69821b0a67793ce82a75a42d"
+    },
+    {
+      "path": "logs/clocks.rpt",
+      "bytes": 1600,
+      "sha256": "aa21a44f9e8a40cc2df6df235bdb1cabbe8a683584605b6680c4f8c74fbf9ed8"
+    },
+    {
+      "path": "logs/diag_console.log",
+      "bytes": 13293,
+      "sha256": "3fbd5c1431977a942d0498073f7681ca21865971d83eaedaa52385e676805a23"
+    },
+    {
+      "path": "logs/diag_console_fs500.log",
+      "bytes": 4404,
+      "sha256": "fef9834d5e9fe390b281121cc57f615dbf71ff7d06ce838bb40c0b4f53ed2ab8"
+    },
+    {
+      "path": "logs/diag_console_full.log",
+      "bytes": 7540,
+      "sha256": "fdd647bc492d727c4782cb06674e7d42bf48a58e4c9c868ac35e9b2fc6f77555"
+    },
+    {
+      "path": "logs/diag_console_tmo5000.log",
+      "bytes": 1137,
+      "sha256": "e6f2e7cee3eaa8bbf245ff0fa2ca7721efa69b4b300190c3ce7240d5b0589b51"
+    },
+    {
+      "path": "logs/fault_first_trigger.log",
+      "bytes": 635,
+      "sha256": "5191ee7134dc5e6c25acfef1aaf39d5a59b35ba2ddb3f79a787dab06fcf4d9e9"
+    },
+    {
+      "path": "logs/interleaved.log",
+      "bytes": 8120,
+      "sha256": "bfaac1eb35577d6cc21067bbb52e9e395045bfe406103669bf91a2973adfef03"
+    },
+    {
+      "path": "logs/phase1gu_final.log",
+      "bytes": 4288,
+      "sha256": "d3db9ed552436bddaa19520543233be66ae7341336f6a57804bc908315f3eaee"
+    },
+    {
+      "path": "logs/phase1gv_final.log",
+      "bytes": 1219,
+      "sha256": "52a1319118cc1d107b5df4be35342b7b6264cb88a816b26d56342b6186a5e73c"
+    },
+    {
+      "path": "logs/phase2a_final.log",
+      "bytes": 177634,
+      "sha256": "7fa95ed79e449e1e9ec192167c9ea0492ffa195ccfb82bb785d698524bb6616a"
+    },
+    {
+      "path": "logs/r1e.log",
+      "bytes": 3932,
+      "sha256": "af03b14ead2f0df608190c1fd3c1eead27e9ef65aae00f75e95ddbfbe37e10f2"
+    },
+    {
+      "path": "logs/r21.log",
+      "bytes": 15114,
+      "sha256": "e4badeb7e59d1a21eabb0493f85e0456b68c39454b00a54010cab8516399220c"
+    },
+    {
+      "path": "logs/rtl_filelist.f",
+      "bytes": 424,
+      "sha256": "35e861709b26b6b98f43040e414c89e1765b9615c22f048062804f4869d011bd"
+    },
+    {
+      "path": "logs/sim_revB.log",
+      "bytes": 15136,
+      "sha256": "fca42268e8d9088bea1d83d825cf111308ab083cf46b3d2add6653062f79d39c"
+    },
+    {
+      "path": "logs/sim_revB2.log",
+      "bytes": 15195,
+      "sha256": "7d5c6818f3693e1db1762d1dd38aa713d099f0d83f5afc8784d187b47da5d346"
+    },
+    {
+      "path": "logs/sim_revB_final.log",
+      "bytes": 15146,
+      "sha256": "e3c8927b2870b5d022e491360559ab10aa79434ae3a58e3cf71f73421f1a270e"
+    },
+    {
+      "path": "logs/sim_run_01.log",
+      "bytes": 7488,
+      "sha256": "87c4d2e32f22d7c192e75a482ec14a4043317551c604eb4d8c2a5eceec306d2f"
+    },
+    {
+      "path": "logs/sim_run_02.log",
+      "bytes": 3183,
+      "sha256": "7c917273a205d63a4c915b6cd33d4b45779648f2aed27c4f9290e02aa62fb800"
+    },
+    {
+      "path": "logs/sim_supp.log",
+      "bytes": 25432,
+      "sha256": "e0eb4e16fdce4a376b9bd0227f55cb8f391a47ab38af2531ec8f52c4f237d069"
+    },
+    {
+      "path": "logs/tb_axi_interleaved.v",
+      "bytes": 10456,
+      "sha256": "432d2d4abfb1d009c6fd0273cbdd70aab663f994b6aeea684dc29ad98e4de702"
+    },
+    {
+      "path": "logs/timing_hold.rpt",
+      "bytes": 62807,
+      "sha256": "72101127ababfbca48adf64f25713ada195ec49088accaf209ad3913165c8d01"
+    },
+    {
+      "path": "logs/timing_setup.rpt",
+      "bytes": 80320,
+      "sha256": "0d8fd1f83e5cbe71092c0bb21b9ebdc1b9d051885d5947b66e928b3528a58322"
+    },
+    {
+      "path": "logs/timing_summary.rpt",
+      "bytes": 525829,
+      "sha256": "b8864c4b1a350e6b3984c16fa1f2429b5ee6d6f0e20a58c5c9ae460a12857916"
+    },
+    {
+      "path": "logs/utilization.rpt",
+      "bytes": 9609,
+      "sha256": "862087704304b5b807c6f187ca681ec64c42cdcfa7c0cf6fcb7c88feda3cbcb8"
+    },
+    {
+      "path": "logs/utilization_hier.rpt",
+      "bytes": 4172,
+      "sha256": "a0805fdddd16dc011b2d924ad13e6d3012ec64815bacd87e49b7367aa621f491"
+    },
+    {
+      "path": "logs/vivado_synth.log",
+      "bytes": 56221,
+      "sha256": "1d8c027d321d7605411756db11f44d7c17946bc68f56c39f3b1600388a41dad2"
+    },
+    {
+      "path": "logs/xvlog.pb",
+      "bytes": 161,
+      "sha256": "9f9a4080aed3187bef7fe604a3758e4f9934566b1400f7982872f23741e40539"
+    },
+    {
+      "path": "phase1d_1e/i2c_byte_capture.csv",
+      "bytes": 46503,
+      "sha256": "c1d76f0680d4f07b3d7814d07184867f6adabea96f951675352cfb497b5b873d"
+    },
+    {
+      "path": "phase1d_1e/independent_decoder.py",
+      "bytes": 9136,
+      "sha256": "2968a25a63fa06ce8926b2673819503286b04de9df6f51afec76fc40a16ff787"
+    },
+    {
+      "path": "phase1d_1e/p1d_21item.log",
+      "bytes": 15118,
+      "sha256": "c8edf397273dde03826e353d69ff1d6ae2ad3ea0476de3c20af94dc98ab781fb"
+    },
+    {
+      "path": "phase1d_1e/p1e_console2.log",
+      "bytes": 3938,
+      "sha256": "1697fb8455d49fed793de134426a4d42d81a48b23e4fb11686a30d7ff63baba1"
+    },
+    {
+      "path": "phase1d_1e/p1e_python_decode2.log",
+      "bytes": 1304,
+      "sha256": "29cbc14d52abe87ab8e3ef57488e9432caf3bf3fa809ded40e76475a74a7b75e"
+    },
+    {
+      "path": "phase1d_1e/pca_init_sequencer.v.BEFORE_PHASE1F",
+      "bytes": 16868,
+      "sha256": "0f22805029197dcaed22009798f2df56928c8cd3756148fa7780c613d4f35e3b"
+    },
+    {
+      "path": "phase1d_1e/PHASE1D_1E_FINAL_REPORT.md",
+      "bytes": 4893,
+      "sha256": "ac016ed5fed08dafb5158165890bd1ba41df95b99398aa865d2c9e6a6f09ec33"
+    },
+    {
+      "path": "phase1d_1e/PHASE1D_TIMING_REPORT.md",
+      "bytes": 2278,
+      "sha256": "60ef98f1dc4a3d4e81fad99dbdfeb35561763656dc6411195e30764d39aae489"
+    },
+    {
+      "path": "phase1d_1e/PHASE1E_FAULT_INJECTION_REPORT.md",
+      "bytes": 1943,
+      "sha256": "0f4d398fda526297e25d24fdd0f90eeb02a060eafe4534249ee76000026eccce"
+    },
+    {
+      "path": "phase1d_1e/PHASE1E_REGISTER_AUDIT.md",
+      "bytes": 3106,
+      "sha256": "7680fa58ac2070221a341a48f461bd6452fe4ea2eb9e59b6a280e9658f975e12"
+    },
+    {
+      "path": "phase1d_1e/python_regmap_256.csv",
+      "bytes": 9208,
+      "sha256": "89191b6d34a9b53f6a2cd7984bccea5230d5046165ebbd0c471e243f9b48b4e9"
+    },
+    {
+      "path": "phase1d_1e/regmap_256.csv",
+      "bytes": 6380,
+      "sha256": "94b5623b4fbd0690ec52f3ebb180db4fc5b67665131745de02a0cfc65e9df565"
+    },
+    {
+      "path": "phase1d_1e/tb_21item_p1d.v",
+      "bytes": 15503,
+      "sha256": "31085240803ed277801a79e15d4d5be4cca2959f1ac43d90156d4a231e7785a7"
+    },
+    {
+      "path": "phase1d_1e/tb_phase1e_regmap.v",
+      "bytes": 17723,
+      "sha256": "232a5dc463bef16f18e6735073f57b3f5bfddf508865bda6b52324a3a889161c"
+    },
+    {
+      "path": "phase1f/delay_fixed_50m.log",
+      "bytes": 1804,
+      "sha256": "5c01f3f7b7ff901916f09b860a45b1953a5a1fe040fb6642c6bc5600caa8d8ba"
+    },
+    {
+      "path": "phase1f/delay_fixed_96968.log",
+      "bytes": 2003,
+      "sha256": "cc88409c981f500b60e5188fadd6efe1a8dd2cb937e43b8797671c1849c300af"
+    },
+    {
+      "path": "phase1f/delay_OLD_96968.log",
+      "bytes": 1872,
+      "sha256": "c9706b5a4d7abc2c5cfbe370edb8792e304f590ff6173bf2ef74b141a9897b03"
+    },
+    {
+      "path": "phase1f/i2c_byte_capture.csv",
+      "bytes": 46587,
+      "sha256": "0c84ffe6fc71bac2fab574ad0ec10eb8b7f836e6144384e67e85d5cb0caf6eff"
+    },
+    {
+      "path": "phase1f/p1f_21item.log",
+      "bytes": 15111,
+      "sha256": "f39c3f380b236d73cc0a32f5e181d255a61c6684f4978fb1e245ae97b1dd0a9c"
+    },
+    {
+      "path": "phase1f/p1f_phase1e.log",
+      "bytes": 3828,
+      "sha256": "b0bf531057d6e77610b2509e8e5fc469625bf8559934f8d2ed5dbd2733570d6e"
+    },
+    {
+      "path": "phase1f/pca_init_sequencer.v.BEFORE_PHASE1F",
+      "bytes": 16868,
+      "sha256": "0f22805029197dcaed22009798f2df56928c8cd3756148fa7780c613d4f35e3b"
+    },
+    {
+      "path": "phase1f/PHASE1F_DELAY_WIDTH_FIX_REPORT.md",
+      "bytes": 8298,
+      "sha256": "9558ee2a6c46c2f6e55cc86944265549a1ba1d81bd1c2eeb4c1c85ef4f4b4d31"
+    },
+    {
+      "path": "phase1f/regmap_256.csv",
+      "bytes": 6380,
+      "sha256": "94b5623b4fbd0690ec52f3ebb180db4fc5b67665131745de02a0cfc65e9df565"
+    },
+    {
+      "path": "phase1f/tb_phase1f_delay.v",
+      "bytes": 8184,
+      "sha256": "9b7d638a05f8b5d65f2848828d1c95c894873be64517a30e16340ee5e01f190c"
+    },
+    {
+      "path": "phase1f/timing_summary.rpt",
+      "bytes": 525820,
+      "sha256": "ad9599fede266f00705bf9b918b64668eccc5d37bafc15b1b509eb89df4b5151"
+    },
+    {
+      "path": "phase1f/utilization.rpt",
+      "bytes": 9606,
+      "sha256": "4e200b940f3d1641c2429ebcd4e7cdaad6af1b631caeb1a5ea44fc02f99bc855"
+    },
+    {
+      "path": "phase1f/wrappers.v",
+      "bytes": 230,
+      "sha256": "2c8ae3360b32934298c91570717c9c354428e5150412a2e1f5a172ce4caf627f"
+    },
+    {
+      "path": "phase1g/board_parts_query.tcl",
+      "bytes": 319,
+      "sha256": "308f05dd6cb0d5796930c9e2e9a201e5bbe4b256fb9109e5a25f2f823907ee5e"
+    },
+    {
+      "path": "phase1g/device_pin_database_query.log",
+      "bytes": 1439,
+      "sha256": "0218a7a3bb22e307e00b005daeb5e3f480ba38bc9323f66fc9eb7416c40cd52a"
+    },
+    {
+      "path": "phase1g/hb_50m.log",
+      "bytes": 2138,
+      "sha256": "3e50fb669719de06caae9533e47156723c3cd48e1f2d46c753b9b912f8184cea"
+    },
+    {
+      "path": "phase1g/hb_96968.log",
+      "bytes": 2138,
+      "sha256": "0c7c3dc09ecdeb3cefb8470e464c0d7189326e2fe6f13b896d0ad68a98b6f2bc"
+    },
+    {
+      "path": "phase1g/kv260_haptic_top.v.BEFORE_PHASE1GU",
+      "bytes": 11304,
+      "sha256": "680ca146684e93db49b9a34d58e1554eca278d8dd712e7841447b65e705abd20"
+    },
+    {
+      "path": "phase1g/place_lvcmos33_probe.log",
+      "bytes": 956,
+      "sha256": "39f2a4b2255ae207779e09770e95c1b87feb53bfcd359b1cd969a027ad1cc345"
+    },
+    {
+      "path": "phase1g/report_io.rpt",
+      "bytes": 250857,
+      "sha256": "39ff560e43aa811723f40e83ac9cf5263237407293c98f12ad663c51c0a121d1"
+    },
+    {
+      "path": "phase1g/tb_hb_lite.v",
+      "bytes": 5720,
+      "sha256": "2302ebe6f4408eab93a1c106c1d8ae0e99d6ffbffb8e8fba69af65973c3df6dd"
+    },
+    {
+      "path": "phase1g/tb_joint_hb_ctrl.v",
+      "bytes": 6091,
+      "sha256": "4a069593399d87cf0a37be3c9620d5dae5bb2954fecc3b414da214d3cddf1ffd"
+    },
+    {
+      "path": "phase1g/timing_summary.rpt",
+      "bytes": 51749,
+      "sha256": "25b0d600d05201e2910665ab74152d8c262744e096c11dbd3dafcd0f822bffb8"
+    },
+    {
+      "path": "phase1g/u_lite_impl.log",
+      "bytes": 85770,
+      "sha256": "e9dfe53b837b492ea7ef32da4bd0f51fbc91082f7f2456e2c9d9dd75d11360c9"
+    },
+    {
+      "path": "phase1g/utilization.rpt",
+      "bytes": 13029,
+      "sha256": "93a1bbce46dc56a3f2a72f94fdb1404b417ac880e9a8e1a20ce18a073f338d36"
+    },
+    {
+      "path": "phase1g/v_21item.log",
+      "bytes": 15112,
+      "sha256": "9f60657df4a7873b31ff4e1e76e1ca98b37350160cadde17ed431ec2ac26077f"
+    },
+    {
+      "path": "phase1g/v_faultinject.log",
+      "bytes": 1304,
+      "sha256": "6d9564926229aa7a9dbdaddeb11a9b569228d889a8ff9fb42b85c6246749f3c0"
+    },
+    {
+      "path": "phase1g/v_joint.log",
+      "bytes": 1213,
+      "sha256": "300a7045743aaf8b6473e0cb1d7bd9bc92bdd1f947adae2f025a7dbc49cd3b7d"
+    },
+    {
+      "path": "phase1g/v_phase1e.log",
+      "bytes": 3829,
+      "sha256": "241742ec28b55378e6fef05c0734a5218e0bd4b09975ced1150e813471877429"
+    },
+    {
+      "path": "phase2a/final2.log",
+      "bytes": 88181,
+      "sha256": "7b14b03bae0da813b943a55154acd1b5df38a4e9dabcc59fd4a18fdc999c6a83"
+    },
+    {
+      "path": "phase2a/kv260_haptic_axi_wrapper.v",
+      "bytes": 5712,
+      "sha256": "7af3029bf13e04567784fad478884604a1a3e4e21efab2f41ff3b5247c37cfae"
+    },
+    {
+      "path": "phase2a/kv260_haptic_bd.bd",
+      "bytes": 57069,
+      "sha256": "308a21e60f006f9b2f81d155fdb3de1d6f93b625e9a79aeb6544313f218fe9f1"
+    },
+    {
+      "path": "phase2a/report_io.rpt",
+      "bytes": 250129,
+      "sha256": "7513b29f05f5cc1355f1353b664ff45755f3e6530e1886e45ec0faa100b7d5fb"
+    },
+    {
+      "path": "phase2a/timing_summary.rpt",
+      "bytes": 53175,
+      "sha256": "7d8c95bbf24a7cf95a7625fbf0a00a6f50b6aa3abb5857455524b2690ddc5384"
+    },
+    {
+      "path": "phase2a/utilization.rpt",
+      "bytes": 12611,
+      "sha256": "818aac0665db04831d1d56686bba981241b5af5988cf66b00a73707190deb867"
+    },
+    {
+      "path": "phase2b/axi_smoke.log",
+      "bytes": 3560,
+      "sha256": "72d6f1aec494b4a2edb9374dd180e9488f376cb2518bf361e925a87f6e4fda12"
+    },
+    {
+      "path": "phase2b/haptic_axi_smoke",
+      "bytes": 707632,
+      "sha256": "576267ad7db2fa9415a2e3611cb0b8cb40a2cfe046ee46dbcd78123d765c2b44"
+    },
+    {
+      "path": "phase2b/haptic_axi_smoke.c",
+      "bytes": 7092,
+      "sha256": "60ee28a3289d5290c51c7b03b1b6e1b599be22bcc2e857f1d9ec7ecf6d901829"
+    },
+    {
+      "path": "phase2b/haptic_regs.h",
+      "bytes": 4479,
+      "sha256": "e51f854cf6b81ef4956ebf6704c34297133a4502ac7356794d529173bf59ab14"
+    },
+    {
+      "path": "phase2b/kv260_haptic_top.v.BEFORE_2BFIX",
+      "bytes": 13050,
+      "sha256": "cdfb57cbfdc014b06c533a2374c308e51a1eefc339c2571936afed6352399dfb"
+    },
+    {
+      "path": "phase2b/Makefile",
+      "bytes": 415,
+      "sha256": "ca741478d762236b147992ccb0d82786ed3b474c00d8af9273039871a5c137f7"
+    },
+    {
+      "path": "phase2b/tb_axi_smoke.v",
+      "bytes": 6231,
+      "sha256": "9186bd064753c9f1150a931c0f34dad52d6e46a40bb4dcc354e31b18cd41802f"
+    },
+    {
+      "path": "phase2bfinal/build/p2a_final_io.rpt",
+      "bytes": 250138,
+      "sha256": "8113bc40cb038da6487581de7b9e5eaa8261a4dc24eaec56c8fcd2d715fabcb7"
+    },
+    {
+      "path": "phase2bfinal/build/p2a_final_timing.rpt",
+      "bytes": 52791,
+      "sha256": "121e6ab39a383c2ed305d93498778d79a08935f90f4d60664d31ed8d418598eb"
+    },
+    {
+      "path": "phase2bfinal/build/p2a_final_util.rpt",
+      "bytes": 12596,
+      "sha256": "f8971c9396702b26b877c01e9bb62ab3ea9f6f69fd8f01b3a8790d434c649268"
+    },
+    {
+      "path": "phase2bfinal/build/p2b_debug_bd_wrapper.bit",
+      "bytes": 7797832,
+      "sha256": "6d052180af90b2947e458eb99997130766ef09e6d3f81c11be94f8719f87626b"
+    },
+    {
+      "path": "phase2bfinal/build/p2b_debug_debug.xsa",
+      "bytes": 1213103,
+      "sha256": "12f44ec7fdf21853dd5988f02f3cd7b7fd90a7b176ffde85657e6863556dcb7c"
+    },
+    {
+      "path": "phase2bfinal/build/p2b_debug_io.rpt",
+      "bytes": 250138,
+      "sha256": "eaa30a62a01326214d39bfce7925a48fc8613ba68657de67e5d4089066414896"
+    },
+    {
+      "path": "phase2bfinal/build/p2b_debug_timing.rpt",
+      "bytes": 48199,
+      "sha256": "05797977ac4579bba5f68ead0e497da13468ee8854c592eeef126b7609dfed47"
+    },
+    {
+      "path": "phase2bfinal/build/p2b_debug_util.rpt",
+      "bytes": 12140,
+      "sha256": "7a82704b851d9edb7b6bc45ebd2c9d14ef1af5ece9a935edcc1f4250c93d9aa9"
+    },
+    {
+      "path": "phase2bfinal/build_all.tcl",
+      "bytes": 4734,
+      "sha256": "09f53672d7aca7362b54b3010bc9641be8ce4713ebb15215919d7053cfa73ddc"
+    },
+    {
+      "path": "phase2bfinal/kv260_haptic_debug_wrapper.v",
+      "bytes": 5554,
+      "sha256": "446856321b34185a5ee36c02dfcaac28dc39f18bb0371687f151eeba9facfc75"
+    },
+    {
+      "path": "phase2bfinal/tb_hb_lite.v",
+      "bytes": 5794,
+      "sha256": "603cb5f5e47c942ca05b0ffa01f8a5b2d12c3d5f47d75501c6829b64a072d91b"
+    },
+    {
+      "path": "phase2bfinal/tb_joint_hb_ctrl.v",
+      "bytes": 6245,
+      "sha256": "ef5923badcf6a267679a1ced8b3ccdb5403f5c53dea5f605c42b73558d4a986d"
+    },
+    {
+      "path": "reports/ACCEPTANCE_21_ITEMS.md",
+      "bytes": 1930,
+      "sha256": "141efb3d1b6ae76cbcae4c66fe5ca857cc528742138c7473e7b7a2c86e886c72"
+    },
+    {
+      "path": "reports/AUDIT_BASELINE_SHA256.json",
+      "bytes": 7152,
+      "sha256": "58453883cbacb03bc33fbba84c859d4b673b09383ffb775f93bd3f5d8ee3761f"
+    },
+    {
+      "path": "reports/ax7020_rtl_copied_sha256.json",
+      "bytes": 3146,
+      "sha256": "cee475d4c2cf83b4d4935db07cf32cc77fe46b94ebde19fabca28466625d6313"
+    },
+    {
+      "path": "reports/AXI_INTERFACE_AUDIT.md",
+      "bytes": 3267,
+      "sha256": "eb771e633de85724e771a7e424a656ff1b6466c8b5e7d3bbd6af809466bcdca0"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_ARCHITECTURE.md",
+      "bytes": 1745,
+      "sha256": "131797bfd1163d14813136d185f26bffe1cfa2f49d63afa2ce781f1cbfcec935"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_FIELD_CHECKLIST.md",
+      "bytes": 4079,
+      "sha256": "5b13d42776e23d0847b67ce1c97b8cbaea2109528a1f1a507e832a91dd39c8ec"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_GAP1_DIAGNOSTIC_REPORT.md",
+      "bytes": 5852,
+      "sha256": "c9c8c3b176dce180a2b0e14ca1d305e3c027b320a48df710199eb52fabd44b50"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_INDEPENDENT_AUDIT.md",
+      "bytes": 13891,
+      "sha256": "3bcc3ccde2f5d68139d09676a9b4d63ffea5af63b4aa7a8b51642a36b182f348"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_PHASE1B_FIX_REPORT.md",
+      "bytes": 5003,
+      "sha256": "9319f4f97ad60008d326bcfdd07d6141977bd0d967584d8f52c83beea384b8a0"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_PHASE1C_REPORT.md",
+      "bytes": 4022,
+      "sha256": "356ff074f553758b6dfac804104ac2750ec09d1138be4be1379e0595a772a5c7"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_PHASE1G_PINOUT_REPORT.md",
+      "bytes": 17372,
+      "sha256": "1e0649e01b4294fac5d3c751700a3632764a4499329aaf4f85df3b99fdd76e0b"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_PIN_CONNECTION_REPORT.md",
+      "bytes": 11121,
+      "sha256": "ca84dbb5370d35ce22991512e2e27492106a510ddf61aa96c42d9b4bd85f8001"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_PORTING_REPORT.md",
+      "bytes": 4077,
+      "sha256": "21846ed2b2423f3e0a8d6b0cd0f1ed7722d9b86a67420b56aa93f45ab257e8d2"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_SUPPLEMENTARY_TEST_REPORT.md",
+      "bytes": 3448,
+      "sha256": "bbde2eb0c1f5a2dcf563755bd0cec9060117a7bde4fda162a7c48763d872725a"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_TEST_REPORT.md",
+      "bytes": 3050,
+      "sha256": "9dea37b4741278c5437c165ab151b1fcfc5799f6131d4ddfc6883f6425dbb323"
+    },
+    {
+      "path": "reports/KV260_HAPTIC_WIRING_DIAGRAM.md",
+      "bytes": 11704,
+      "sha256": "c507598ea82d456dac017051d41ef29b6135e6465f2e404007e2031b81e6cfa4"
+    },
+    {
+      "path": "reports/PHASE1F_INDEPENDENT_AUDIT.md",
+      "bytes": 8609,
+      "sha256": "2934005a974279551e6cf5d9d6a1c73898c5c4dcefdff751da489429d8717eac"
+    },
+    {
+      "path": "reports/PHASE1G_R_AUDIT.md",
+      "bytes": 12843,
+      "sha256": "95da9f5307cfcb1eca5e43b0a24b2b88dd7ac1b70675625fcc9a9a49f6d65658"
+    },
+    {
+      "path": "reports/PHASE1G_S_BOARDSTORE_TRACE.md",
+      "bytes": 8937,
+      "sha256": "ab18677bb0bd8a263193a4d0afe553748967e70ccb80e05e4e6bb1198aa494d3"
+    },
+    {
+      "path": "reports/PHASE1G_T_J2_GPIO_WATCHDOG_AUDIT.md",
+      "bytes": 11968,
+      "sha256": "0f17ec9d3007073d50c50676d84019cb5329d848c48bce8b9e33fe14e449b66c"
+    },
+    {
+      "path": "reports/PHASE1G_U_LITE_RESULT.md",
+      "bytes": 5115,
+      "sha256": "0c1cefcf2c73f6bf027d5744b4747b90d0b8c1321c2b1dd855c4d708bc598131"
+    },
+    {
+      "path": "reports/PHASE1G_V_FULL_REGRESSION.md",
+      "bytes": 7583,
+      "sha256": "7db0b9900d7827964979f8c25a086657d9b06008e5cde178fa026ab9b741544d"
+    },
+    {
+      "path": "reports/PHASE2A_PS_PL_INTEGRATION.md",
+      "bytes": 9517,
+      "sha256": "bc07c0a54725fdf374f1dc1d5332c1f345b0910e313231bf6acc2a80f6300dc2"
+    },
+    {
+      "path": "reports/PHASE2B_FINAL_REPORT.md",
+      "bytes": 9810,
+      "sha256": "a95f23310287430ea5667b9a231170bc2a0d0ed42daf35009838b46b6f4688c9"
+    },
+    {
+      "path": "reports/PHASE2B_FIX_REPORT.md",
+      "bytes": 9175,
+      "sha256": "921466f9396d3312d8f31caf99f7e58af1c53446a39ec4da2a4842465257599c"
+    },
+    {
+      "path": "reports/PHASE2B_LITE_REPORT.md",
+      "bytes": 9831,
+      "sha256": "71bc997b828adc2418a3660c0178c2fe33b20b7e89f0b99cf0d01faedb8f0a12"
+    },
+    {
+      "path": "reports/PRE_BURN_CHECKLIST.md",
+      "bytes": 1587,
+      "sha256": "d9e0e9057dc3df8f5a1302a9274039c83fab5a98512d497de0d94032d76097ba"
+    },
+    {
+      "path": "reports/RTL_PORTING_MATRIX.md",
+      "bytes": 2132,
+      "sha256": "fac12259783fedcce239e33c286c587959d37aea1a65da9d319f604da6051170"
+    },
+    {
+      "path": "reports/S5_S5B_REPLACEMENT_AUDIT.md",
+      "bytes": 3161,
+      "sha256": "b10c5651ae60d2b329ea1be05b9454724a521b0ee8158bc1e2c5e9092ab95306"
+    },
+    {
+      "path": "reports/TESTBENCH_CHANGELOG.md",
+      "bytes": 1698,
+      "sha256": "c7055e88ea63657dc197ba8de72f17569c332fed2baddc38a0053e33d82823a1"
+    },
+    {
+      "path": "reports/VIVADO_TIMING_REPORT.md",
+      "bytes": 2709,
+      "sha256": "ee3b1e8a8e2482b532a1c14012ecb5af11896d34e5b7f7189dca95a002acfa80"
+    },
+    {
+      "path": "reports/VIVADO_UTILIZATION_REPORT.md",
+      "bytes": 2430,
+      "sha256": "943efb790aa399b8e0f4996df11631384ff822bcce7f144b6e5ededfb81fc8f1"
+    },
+    {
+      "path": "rtl/axi_status_regs.v",
+      "bytes": 11757,
+      "sha256": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c"
+    },
+    {
+      "path": "rtl/block_refresh_buffer.v",
+      "bytes": 10231,
+      "sha256": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec"
+    },
+    {
+      "path": "rtl/dirty_detector.v",
+      "bytes": 8332,
+      "sha256": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8"
+    },
+    {
+      "path": "rtl/duty_lut_rom.v",
+      "bytes": 1850,
+      "sha256": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122"
+    },
+    {
+      "path": "rtl/failsafe_timer.v",
+      "bytes": 6125,
+      "sha256": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f"
+    },
+    {
+      "path": "rtl/fault_recovery_ctrl.v",
+      "bytes": 2518,
+      "sha256": "c622752364dd60a493b731c7aa54ba6cfe04bedec52148bbcb1428cf5586fe15"
+    },
+    {
+      "path": "rtl/haptic_oe_guard.v",
+      "bytes": 5980,
+      "sha256": "12fa6ca51b8cee00519333353b166ba91fe3e173dbf3e3a1e3a9a14184cfa853"
+    },
+    {
+      "path": "rtl/i2c_fault_monitor.v",
+      "bytes": 5664,
+      "sha256": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c"
+    },
+    {
+      "path": "rtl/i2c_master.v",
+      "bytes": 13713,
+      "sha256": "b0282ba70f368f761036b52729b276478225fe388140a6065dd4d20b9f75ccae"
+    },
+    {
+      "path": "rtl/i2c_transaction_builder.v",
+      "bytes": 6318,
+      "sha256": "cafbc7be5851751a540190e02267dc55adba2b2e8ad30caf7bf57c9931aced1d"
+    },
+    {
+      "path": "rtl/kv260_haptic_pipeline.v",
+      "bytes": 27111,
+      "sha256": "899240a2d94c5535b18686c8251a38c49872bb52e4767902c33a9151fe71f0d7"
+    },
+    {
+      "path": "rtl/kv260_haptic_top.v",
+      "bytes": 14156,
+      "sha256": "a1d3fbb9057cb4b24d5d5892538ca8533c777a68bd85d1618b10895c49de39b9"
+    },
+    {
+      "path": "rtl/matrix_buffer.v",
+      "bytes": 4516,
+      "sha256": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394"
+    },
+    {
+      "path": "rtl/matrix_buffer_axi.v",
+      "bytes": 16021,
+      "sha256": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397"
+    },
+    {
+      "path": "rtl/matrix_map_rom.v",
+      "bytes": 4115,
+      "sha256": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b"
+    },
+    {
+      "path": "rtl/pca9685_burst_builder.v",
+      "bytes": 9247,
+      "sha256": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a"
+    },
+    {
+      "path": "rtl/pca_init_sequencer.v",
+      "bytes": 17190,
+      "sha256": "a245e27123b9ad749cae6dddfe005061d46d25eb7035dbef0935b17826c1eeaf"
+    },
+    {
+      "path": "rtl/scheduler_fsm.v",
+      "bytes": 13082,
+      "sha256": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb"
+    },
+    {
+      "path": "rtl/tactile_render_top.v",
+      "bytes": 25444,
+      "sha256": "ab16f6327b9e8256294b6b254f58234bd9b469007d2c6bb6688f813521cc6320"
+    },
+    {
+      "path": "rtl/tactile_v12_ctrl.v",
+      "bytes": 10219,
+      "sha256": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8"
+    },
+    {
+      "path": "rtl/tca9548_inject.v",
+      "bytes": 12308,
+      "sha256": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+    },
+    {
+      "path": "RTL_FREEZE_1GV.json",
+      "bytes": 2690,
+      "sha256": "8e4996ce49a62733007f749d5cdc167754b3699311968c419d184ab56be0307c"
+    },
+    {
+      "path": "RTL_FREEZE_2B_FIX.json",
+      "bytes": 3118,
+      "sha256": "02498aef1d997bc5ce08145e7a1bda474d2dfae8f26efdfb829d73692d5b6d83"
+    },
+    {
+      "path": "sim/synth_phase1c.tcl",
+      "bytes": 2162,
+      "sha256": "20388b4333cf36ca26bdf23730b1c4ce945ec20017cc996636fac8cb5d6585b6"
+    },
+    {
+      "path": "tb/tb_kv260_haptic_gap1.v",
+      "bytes": 12150,
+      "sha256": "a6414c75ac0f9e6e6488f8b576af359f8136b1a3d0dd2074c35f1554dcebe0cd"
+    },
+    {
+      "path": "tb/tb_kv260_haptic_supp.v",
+      "bytes": 12826,
+      "sha256": "022f0440716903fdacd4167a6fbf19414a1fe2fa3efcc7baff81a6bf62b8db8e"
+    },
+    {
+      "path": "tb/tb_kv260_haptic_top.v",
+      "bytes": 13429,
+      "sha256": "82bd8e63e8fb4cfaa499313b60bff66dac48aa06677af108cefc4bc71225d7d8"
+    },
+    {
+      "path": "tb/tb_kv260_haptic_top_revA_before_fix.v",
+      "bytes": 13429,
+      "sha256": "82bd8e63e8fb4cfaa499313b60bff66dac48aa06677af108cefc4bc71225d7d8"
+    },
+    {
+      "path": "tb/tb_kv260_haptic_top_revB.v",
+      "bytes": 15525,
+      "sha256": "9c8c98a66131d1e6fa1fe22f2596bd3117ec722d163c4810012965745380c088"
+    }
+  ],
+  "skipped_unreadable": [],
+  "rtl": {
+    "sha": "a1d3fbb9057cb4b24d5d5892538ca8533c777a68bd85d1618b10895c49de39b9",
+    "file_count": 21,
+    "files": {
+      "axi_status_regs.v": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c",
+      "block_refresh_buffer.v": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec",
+      "dirty_detector.v": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8",
+      "duty_lut_rom.v": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122",
+      "failsafe_timer.v": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f",
+      "fault_recovery_ctrl.v": "c622752364dd60a493b731c7aa54ba6cfe04bedec52148bbcb1428cf5586fe15",
+      "haptic_oe_guard.v": "12fa6ca51b8cee00519333353b166ba91fe3e173dbf3e3a1e3a9a14184cfa853",
+      "i2c_fault_monitor.v": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c",
+      "i2c_master.v": "b0282ba70f368f761036b52729b276478225fe388140a6065dd4d20b9f75ccae",
+      "i2c_transaction_builder.v": "cafbc7be5851751a540190e02267dc55adba2b2e8ad30caf7bf57c9931aced1d",
+      "kv260_haptic_pipeline.v": "899240a2d94c5535b18686c8251a38c49872bb52e4767902c33a9151fe71f0d7",
+      "kv260_haptic_top.v": "a1d3fbb9057cb4b24d5d5892538ca8533c777a68bd85d1618b10895c49de39b9",
+      "matrix_buffer.v": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394",
+      "matrix_buffer_axi.v": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397",
+      "matrix_map_rom.v": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b",
+      "pca9685_burst_builder.v": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a",
+      "pca_init_sequencer.v": "a245e27123b9ad749cae6dddfe005061d46d25eb7035dbef0935b17826c1eeaf",
+      "scheduler_fsm.v": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb",
+      "tactile_render_top.v": "ab16f6327b9e8256294b6b254f58234bd9b469007d2c6bb6688f813521cc6320",
+      "tactile_v12_ctrl.v": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8",
+      "tca9548_inject.v": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+    }
+  },
+  "regression": {
+    "phase1gu_90908mhz": "PASS_8_OF_8",
+    "phase1gu_50mhz": "PASS_8_OF_8",
+    "phase1gv_joint": "PASS_8_OF_8",
+    "phase1b_21item": "PASS_21_OF_21",
+    "phase1e": "PASS_11_OF_11",
+    "full_off_256": "PASS",
+    "axi_interleaved": "PASS_17"
+  },
+  "impl": {
+    "p2a_final": {
+      "bd": "validated",
+      "synth": "0 errors",
+      "route": "Complete",
+      "iob": 4,
+      "lut": 2126,
+      "ff": 2177,
+      "wns": 6.724,
+      "tns": 0.0
+    },
+    "p2b_debug": {
+      "bd": "validated",
+      "synth": "0 errors",
+      "bitstream": "Complete",
+      "iob": 0,
+      "lut": 2109,
+      "ff": 2159,
+      "wns": 7.216,
+      "tns": 0.0,
+      "bit": {
+        "path": "phase2bfinal/build/p2b_debug_bd_wrapper.bit",
+        "bytes": 7797832,
+        "sha256": "6d052180af90b2947e458eb99997130766ef09e6d3f81c11be94f8719f87626b"
+      },
+      "xsa": {
+        "path": "phase2bfinal/build/p2b_debug_debug.xsa",
+        "bytes": 1213103,
+        "sha256": "12f44ec7fdf21853dd5988f02f3cd7b7fd90a7b176ffde85657e6863556dcb7c"
+      }
+    }
+  },
+  "layers": {
+    "rtl_regression": "PASS",
+    "vivado_impl": "PASS",
+    "debug_image": "PASS",
+    "ps_pl_real_hw": "NOT_VERIFIED"
+  },
+  "known_limitation": {
+    "t7b": "cross-region W-before-AW hangs; accepted for ZynqMP PS HPM only"
+  },
+  "burned": false,
+  "loadapp": false
+}

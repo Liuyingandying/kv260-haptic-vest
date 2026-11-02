@@ -1,0 +1,54 @@
+{
+  "schema": "kv260_haptic_rtl_freeze_2bfix",
+  "date": "2026-11-01",
+  "phase": "2B-FIX",
+  "supersedes": "RTL_FREEZE_1GV.json (kept on disk, not overwritten)",
+  "changed_files": [
+    "kv260_haptic_top.v"
+  ],
+  "sha_1gv": "cdfb57cbfdc014b06c533a2374c308e51a1eefc339c2571936afed6352399dfb",
+  "sha_2bfix": "a1d3fbb9057cb4b24d5d5892538ca8533c777a68bd85d1618b10895c49de39b9",
+  "file_count": 21,
+  "rtl": {
+    "axi_status_regs.v": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c",
+    "block_refresh_buffer.v": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec",
+    "dirty_detector.v": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8",
+    "duty_lut_rom.v": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122",
+    "failsafe_timer.v": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f",
+    "fault_recovery_ctrl.v": "c622752364dd60a493b731c7aa54ba6cfe04bedec52148bbcb1428cf5586fe15",
+    "haptic_oe_guard.v": "12fa6ca51b8cee00519333353b166ba91fe3e173dbf3e3a1e3a9a14184cfa853",
+    "i2c_fault_monitor.v": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c",
+    "i2c_master.v": "b0282ba70f368f761036b52729b276478225fe388140a6065dd4d20b9f75ccae",
+    "i2c_transaction_builder.v": "cafbc7be5851751a540190e02267dc55adba2b2e8ad30caf7bf57c9931aced1d",
+    "kv260_haptic_pipeline.v": "899240a2d94c5535b18686c8251a38c49872bb52e4767902c33a9151fe71f0d7",
+    "kv260_haptic_top.v": "a1d3fbb9057cb4b24d5d5892538ca8533c777a68bd85d1618b10895c49de39b9",
+    "matrix_buffer.v": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394",
+    "matrix_buffer_axi.v": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397",
+    "matrix_map_rom.v": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b",
+    "pca9685_burst_builder.v": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a",
+    "pca_init_sequencer.v": "a245e27123b9ad749cae6dddfe005061d46d25eb7035dbef0935b17826c1eeaf",
+    "scheduler_fsm.v": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb",
+    "tactile_render_top.v": "ab16f6327b9e8256294b6b254f58234bd9b469007d2c6bb6688f813521cc6320",
+    "tactile_v12_ctrl.v": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8",
+    "tca9548_inject.v": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+  },
+  "fixes": [
+    "separate AW/AR region decode",
+    "directional response mux",
+    "internal block gating split",
+    "OE independent AW/W buffering"
+  ],
+  "verified": {
+    "interleaved_t1_t7": "PASS_17_CHECKS",
+    "one_hot": "PASS_0_VIOLATIONS",
+    "phase1b_21item": "PASS_21_OF_21",
+    "phase1e": "PASS_11_OF_11",
+    "full_off_256": "PASS_0_VIOLATIONS"
+  },
+  "known_limitation": {
+    "t7b_cross_region_w_before_aw": "HANGS",
+    "reason": "AXI-Lite W has no address; frozen design cannot route W before AW",
+    "real_impact": "ZynqMP PS AXI master issues AW+W together -> not triggered",
+    "fix_needed": "AW/W skid buffer at top level (not implemented)"
+  }
+}

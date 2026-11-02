@@ -1,0 +1,138 @@
+{
+  "schema": "kv260_2f_r2_rtl_manifest",
+  "rtl_dir": "E:/KVHAP_2F_IOBUF_FIX_R2/rtl_r2",
+  "files": [
+    {
+      "file": "axi_status_regs.v",
+      "bytes": 11757,
+      "sha256": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c"
+    },
+    {
+      "file": "block_refresh_buffer.v",
+      "bytes": 10231,
+      "sha256": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec"
+    },
+    {
+      "file": "candidate_pmod.xdc",
+      "bytes": 700,
+      "sha256": "06441e84a1aec5ece703a8d79adeca634b2e34184e69f88ad4db9272d7104f53"
+    },
+    {
+      "file": "dirty_detector.v",
+      "bytes": 8332,
+      "sha256": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8"
+    },
+    {
+      "file": "duty_lut_rom.v",
+      "bytes": 1850,
+      "sha256": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122"
+    },
+    {
+      "file": "failsafe_timer.v",
+      "bytes": 6125,
+      "sha256": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f"
+    },
+    {
+      "file": "fault_recovery_ctrl.v",
+      "bytes": 2518,
+      "sha256": "c622752364dd60a493b731c7aa54ba6cfe04bedec52148bbcb1428cf5586fe15"
+    },
+    {
+      "file": "haptic_oe_guard.v",
+      "bytes": 5980,
+      "sha256": "12fa6ca51b8cee00519333353b166ba91fe3e173dbf3e3a1e3a9a14184cfa853"
+    },
+    {
+      "file": "i2c_fault_monitor.v",
+      "bytes": 5664,
+      "sha256": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c"
+    },
+    {
+      "file": "i2c_master.v",
+      "bytes": 13713,
+      "sha256": "b0282ba70f368f761036b52729b276478225fe388140a6065dd4d20b9f75ccae"
+    },
+    {
+      "file": "i2c_open_drain_guard.sv",
+      "bytes": 1422,
+      "sha256": "fa63d810ae301d81f9646bc0cbadd4a2ff84b670f5003e0aa15686389345e241"
+    },
+    {
+      "file": "i2c_transaction_builder.v",
+      "bytes": 6318,
+      "sha256": "cafbc7be5851751a540190e02267dc55adba2b2e8ad30caf7bf57c9931aced1d"
+    },
+    {
+      "file": "kv260_haptic_iobuf_wrapper.v",
+      "bytes": 4454,
+      "sha256": "cc12324da36adbf92e1bded61dde3d8efb4d2cb98b40e07dbc48f1c1b117ad83"
+    },
+    {
+      "file": "kv260_haptic_pipeline.v",
+      "bytes": 27560,
+      "sha256": "2914918cd12b1d53fd77b9411a1690311e92741e91db6bba86719adcbc921410"
+    },
+    {
+      "file": "kv260_haptic_top.v",
+      "bytes": 14804,
+      "sha256": "a6de73db95e16cb44b12638587ffca01c99f5434298f0f062b456da127f06cd4"
+    },
+    {
+      "file": "kv260_i2c_bringup_top.v",
+      "bytes": 14160,
+      "sha256": "b78d04e09c48f8fcb9dfcb21867a7aad750176fe1532add7c390df744b5da3e7"
+    },
+    {
+      "file": "kv260_perception_axi_wrap.v",
+      "bytes": 6074,
+      "sha256": "57e635a9b73580c19d10e492789a3d63165ba362c33e385f1361723a4c0a2052"
+    },
+    {
+      "file": "matrix_buffer_axi.v",
+      "bytes": 16021,
+      "sha256": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397"
+    },
+    {
+      "file": "matrix_buffer.v",
+      "bytes": 4516,
+      "sha256": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394"
+    },
+    {
+      "file": "matrix_map_rom.v",
+      "bytes": 4115,
+      "sha256": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b"
+    },
+    {
+      "file": "pca_init_sequencer.v",
+      "bytes": 17190,
+      "sha256": "a245e27123b9ad749cae6dddfe005061d46d25eb7035dbef0935b17826c1eeaf"
+    },
+    {
+      "file": "pca9685_burst_builder.v",
+      "bytes": 9247,
+      "sha256": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a"
+    },
+    {
+      "file": "scheduler_fsm.v",
+      "bytes": 13082,
+      "sha256": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb"
+    },
+    {
+      "file": "tactile_render_top.v",
+      "bytes": 25444,
+      "sha256": "ab16f6327b9e8256294b6b254f58234bd9b469007d2c6bb6688f813521cc6320"
+    },
+    {
+      "file": "tactile_v12_ctrl.v",
+      "bytes": 10219,
+      "sha256": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8"
+    },
+    {
+      "file": "tca9548_inject.v",
+      "bytes": 12308,
+      "sha256": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+    }
+  ],
+  "file_count": 26,
+  "date": "2026-11-02"
+}

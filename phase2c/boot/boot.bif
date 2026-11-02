@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+    [bootloader, destination_cpu=a53-0] fsbl.elf
+    [pmufw_image]                        pmufw.elf
+    [destination_device=pl]              p2b_fix.bit
+    [destination_cpu=a53-0]              haptic_app.elf
+}

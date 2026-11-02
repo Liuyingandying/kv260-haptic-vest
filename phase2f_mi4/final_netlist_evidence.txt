@@ -1,0 +1,55 @@
+IOBUF_COUNT=2
+=== u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_scl_iobuf ===
+  IO  -> PORT=i2c_scl_io
+  I   -> u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/<const0>
+  T   -> u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/T0
+  O   -> u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/scl_sense
+  O_LOADS:
+    scl_pad_sync_reg[0]/D
+    u_ps_bd/kv260_ps_bd_i/iic_probe/U0/X_IIC/FILTER_I/SCL_DEBOUNCE/INPUT_DOUBLE_REGS/syncstages_ff_reg[0]/D
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/FSM_sequential_mst[2]_i_13/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/byte_ready_i_2/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/div[5]_i_2/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/div[7]_i_2/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/div[3]_i_3/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[1]_i_5/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/scl_drv_i_2/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/sda_drv_i_6/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[0]_i_3/I2
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/FSM_sequential_mst[2]_i_7/I3
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/FSM_sequential_mst[2]_i_8/I3
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/byte_ready_i_4/I3
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/done_i_2/I3
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[1]_i_4/I4
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/ack_error_i_4/I5
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[0]_i_2/I5
+  IO_SIDE_LOADS (must be INBUF only):
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_scl_iobuf/INBUF_INST/PAD REF=INBUF
+=== u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_sda_iobuf ===
+  IO  -> PORT=i2c_sda_io
+  I   -> u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/<const0>
+  T   -> u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic_n_1
+  O   -> u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/sda_sense
+  O_LOADS:
+    sda_pad_sync_reg[0]/D
+    u_ps_bd/kv260_ps_bd_i/iic_probe/U0/X_IIC/FILTER_I/SDA_DEBOUNCE/INPUT_DOUBLE_REGS/syncstages_ff_reg[0]/D
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/ack_error_i_2/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/div[3]_i_3/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[0]_i_2/I0
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/FSM_sequential_mst[2]_i_13/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/div[5]_i_2/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/div[7]_i_2/I1
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[1]_i_5/I2
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/phase[1]_i_4/I3
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/FSM_sequential_mst[2]_i_8/I4
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/ack_error_i_4/I4
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_haptic/u_pipe/u_i2c/done_i_2/I4
+  IO_SIDE_LOADS (must be INBUF only):
+    u_ps_bd/kv260_ps_bd_i/haptic_fix/inst/u_sda_iobuf/INBUF_INST/PAD REF=INBUF
+=== OBUF/OBUFT independent drivers on pads ===
+OBUF_COUNT=0
+OBUFT_COUNT=2
+PORT i2c_scl_io PULLTYPE=PULLUP IOSTD=LVCMOS33 PIN=H12
+PORT i2c_sda_io PULLTYPE=PULLUP IOSTD=LVCMOS33 PIN=B10
+WNS=1.397
+WHS=0.010

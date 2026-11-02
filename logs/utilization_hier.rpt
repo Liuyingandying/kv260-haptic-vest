@@ -1,0 +1,46 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sun Nov  1 14:18:01 2026
+| Host         : Liuying running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file D:/DevCache/Temp/kv260_haptic_synth/out/utilization_hier.rpt
+| Design       : kv260_haptic_top
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+------+------------+
+|        Instance       |         Module        | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | URAM | DSP Blocks |
++-----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+------+------------+
+| kv260_haptic_top      |                 (top) |       1431 |       1271 |     160 |    0 | 1330 |      0 |      0 |    0 |          0 |
+|   (kv260_haptic_top)  |                 (top) |          4 |          4 |       0 |    0 |    6 |      0 |      0 |    0 |          0 |
+|   u_oe                |       haptic_oe_guard |         23 |         23 |       0 |    0 |   56 |      0 |      0 |    0 |          0 |
+|   u_pipe              | kv260_haptic_pipeline |       1404 |       1244 |     160 |    0 | 1268 |      0 |      0 |    0 |          0 |
+|     (u_pipe)          | kv260_haptic_pipeline |         18 |         18 |       0 |    0 |   79 |      0 |      0 |    0 |          0 |
+|     u_bld             | pca9685_burst_builder |         83 |         83 |       0 |    0 |  109 |      0 |      0 |    0 |          0 |
+|     u_buf             |  block_refresh_buffer |        119 |        119 |       0 |    0 |  235 |      0 |      0 |    0 |          0 |
+|     u_dd              |        dirty_detector |         92 |         92 |       0 |    0 |   99 |      0 |      0 |    0 |          0 |
+|       (u_dd)          |        dirty_detector |         88 |         88 |       0 |    0 |   91 |      0 |      0 |    0 |          0 |
+|     u_fmon            |     i2c_fault_monitor |        140 |        140 |       0 |    0 |  140 |      0 |      0 |    0 |          0 |
+|     u_fs              |        failsafe_timer |         39 |         39 |       0 |    0 |   50 |      0 |      0 |    0 |          0 |
+|     u_i2c             |            i2c_master |        104 |        104 |       0 |    0 |   52 |      0 |      0 |    0 |          0 |
+|     u_mb_axi          |     matrix_buffer_axi |        338 |        178 |     160 |    0 |  154 |      0 |      0 |    0 |          0 |
+|       (u_mb_axi)      |     matrix_buffer_axi |         96 |         96 |       0 |    0 |  135 |      0 |      0 |    0 |          0 |
+|       u_matrix_buffer |         matrix_buffer |        242 |         82 |     160 |    0 |   19 |      0 |      0 |    0 |          0 |
+|     u_pinit           |    pca_init_sequencer |        109 |        109 |       0 |    0 |   60 |      0 |      0 |    0 |          0 |
+|     u_recovery        |   fault_recovery_ctrl |         72 |         72 |       0 |    0 |   42 |      0 |      0 |    0 |          0 |
+|     u_sched           |         scheduler_fsm |         93 |         93 |       0 |    0 |   69 |      0 |      0 |    0 |          0 |
+|     u_sts             |       axi_status_regs |        117 |        117 |       0 |    0 |   90 |      0 |      0 |    0 |          0 |
++-----------------------+-----------------------+------------+------------+---------+------+------+--------+--------+------+------------+
+
+
