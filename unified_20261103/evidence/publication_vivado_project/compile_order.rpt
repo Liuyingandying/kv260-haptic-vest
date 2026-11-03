@@ -1,0 +1,41 @@
+Source compile order for 'synthesis' with fileset 'sources_1' in source management mode 'All':
+Index  File Name                        Used_In      File_Type  Library             Ngc Wrapper  Full Path Name
+-----  -------------------------------  -----------  ---------  ------------------  -----------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1      xlconstant_v1_1_vl_rfs.v         Synth & Sim  Verilog    xlconstant_v1_1_10  No           e:/KVUPUB_20261103/board_20261103/projects/build_20261103T145551214377Z/kv260_unified_board.gen/sources_1/bd/kv260_unified_ps/ipshared/a165/hdl/xlconstant_v1_1_vl_rfs.v
+2      kv260_unified_ps_diag_magic_0.v  Synth        Verilog    xil_defaultlib      No           e:/KVUPUB_20261103/board_20261103/projects/build_20261103T145551214377Z/kv260_unified_board.gen/sources_1/bd/kv260_unified_ps/ip/kv260_unified_ps_diag_magic_0/synth/kv260_unified_ps_diag_magic_0.v
+3      kv260_unified_ps.v               Synth        Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/projects/build_20261103T145551214377Z/kv260_unified_board.gen/sources_1/bd/kv260_unified_ps/synth/kv260_unified_ps.v
+4      axi_status_regs.v                Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/axi_status_regs.v
+5      block_refresh_buffer.v           Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/block_refresh_buffer.v
+6      dirty_detector.v                 Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/dirty_detector.v
+7      duty_lut_rom.v                   Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/duty_lut_rom.v
+8      failsafe_timer.v                 Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/failsafe_timer.v
+9      fault_recovery_ctrl.v            Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/fault_recovery_ctrl.v
+10     i2c_fault_monitor.v              Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/i2c_fault_monitor.v
+11     i2c_master_100k_candidate.v      Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/i2c_master_100k_candidate.v
+12     kv260_haptic_pipeline.v          Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/kv260_haptic_pipeline.v
+13     kv260_unified_ps_wrapper.v       Synth & Sim  Verilog    xil_defaultlib      No           e:/KVUPUB_20261103/board_20261103/projects/build_20261103T145551214377Z/kv260_unified_board.gen/sources_1/bd/kv260_unified_ps/hdl/kv260_unified_ps_wrapper.v
+14     matrix_buffer.v                  Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/matrix_buffer.v
+15     matrix_buffer_axi.v              Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/matrix_buffer_axi.v
+16     matrix_map_rom.v                 Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/matrix_map_rom.v
+17     pca9685_burst_builder.v          Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/pca9685_burst_builder.v
+18     pca_init_sequencer.v             Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/pca_init_sequencer.v
+19     scheduler_fsm.v                  Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/scheduler_fsm.v
+20     tactile_v12_ctrl.v               Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/tactile_v12_ctrl.v
+21     tca9548_inject.v                 Synth & Sim  Verilog    xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/tca9548_inject.v
+22     perception_axi_adapter.sv        Synth & Sim  SVerilog   xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/perception_axi_adapter.sv
+23     unified_perception_haptic.sv     Synth & Sim  SVerilog   xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/core/unified_perception_haptic.sv
+24     kv260_unified_board_top.sv       Synth & Sim  SVerilog   xil_defaultlib      No           E:/KVUPUB_20261103/board_20261103/rtl/kv260_unified_board_top.sv
+
+
+Constraint evaluation order for 'synthesis' with fileset 'sources_1' & with fileset 'constrs_1':
+Index  File Name               Used_In       Scoped_To_Ref  Scoped_To_Cells  Processing_Order  Out_Of_Context  Full Path Name
+-----  ----------------------  ------------  -------------  ---------------  ----------------  --------------  --------------------------------------------------------------------
+1      kv260_unified_pmod.xdc  Synth & Impl                                  NORMAL                            E:/KVUPUB_20261103/board_20261103/constraints/kv260_unified_pmod.xdc
+
+
+Missing instances for 'synthesis' with fileset 'sources_1':
+Index  Instance Path  File Path  Line
+-----  -------------  ---------  ----
+< empty >
+
+

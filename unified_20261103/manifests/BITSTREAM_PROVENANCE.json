@@ -1,0 +1,113 @@
+{
+  "bitstream_filename": "kv260_unified_board_top.bit",
+  "bytes": 7797835,
+  "sha256": "d13c0fa9fbda9513c51f647388d347c7880865f18bf7f1f9d29236f58981a9e1",
+  "design_inputs_match_published_source": true,
+  "design_inputs": [
+    {
+      "path": "board_20261103/rtl/core/perception_axi_adapter.sv",
+      "sha256": "0064e5e63b63d2b7b5292edcff8f6eb2719ecf4c0c70f72964c2cb220aa0b822"
+    },
+    {
+      "path": "board_20261103/rtl/core/matrix_buffer.v",
+      "sha256": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394"
+    },
+    {
+      "path": "board_20261103/rtl/core/matrix_buffer_axi.v",
+      "sha256": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397"
+    },
+    {
+      "path": "board_20261103/rtl/core/matrix_map_rom.v",
+      "sha256": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b"
+    },
+    {
+      "path": "board_20261103/rtl/core/duty_lut_rom.v",
+      "sha256": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122"
+    },
+    {
+      "path": "board_20261103/rtl/core/scheduler_fsm.v",
+      "sha256": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb"
+    },
+    {
+      "path": "board_20261103/rtl/core/dirty_detector.v",
+      "sha256": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8"
+    },
+    {
+      "path": "board_20261103/rtl/core/block_refresh_buffer.v",
+      "sha256": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec"
+    },
+    {
+      "path": "board_20261103/rtl/core/pca9685_burst_builder.v",
+      "sha256": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a"
+    },
+    {
+      "path": "board_20261103/rtl/core/tca9548_inject.v",
+      "sha256": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+    },
+    {
+      "path": "board_20261103/rtl/core/failsafe_timer.v",
+      "sha256": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f"
+    },
+    {
+      "path": "board_20261103/rtl/core/tactile_v12_ctrl.v",
+      "sha256": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8"
+    },
+    {
+      "path": "board_20261103/rtl/core/pca_init_sequencer.v",
+      "sha256": "bc76c0ac670e7d4376fefcb45df812ce5d3587f72ddc536a85742da511d65cdb"
+    },
+    {
+      "path": "board_20261103/rtl/core/i2c_fault_monitor.v",
+      "sha256": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c"
+    },
+    {
+      "path": "board_20261103/rtl/core/fault_recovery_ctrl.v",
+      "sha256": "610063bdbe7878b4b62645f38bc419dbebc6ecd4ac3e0eeac4b3dc12ba02d6ce"
+    },
+    {
+      "path": "board_20261103/rtl/core/axi_status_regs.v",
+      "sha256": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c"
+    },
+    {
+      "path": "board_20261103/rtl/core/i2c_master_100k_candidate.v",
+      "sha256": "ce6c77606f2deed735d1469fccdfb1da182c2873679851100de4d437f99c2bf7"
+    },
+    {
+      "path": "board_20261103/rtl/core/kv260_haptic_pipeline.v",
+      "sha256": "7bfe5abf52f3809472cba7aa400b948d3161df256657123135f36a3c282f6ac4"
+    },
+    {
+      "path": "board_20261103/rtl/core/unified_perception_haptic.sv",
+      "sha256": "ae127e100125ea98f929dfa4adb421807f26bb31aedcab7ee5b39143d4c75689"
+    },
+    {
+      "path": "board_20261103/rtl/kv260_unified_board_top.sv",
+      "sha256": "5d8dabeadd3e72508b7f70eae49d233014ec0730bf20b0ca436ebc5e98b4bf7a"
+    },
+    {
+      "path": "board_20261103/constraints/kv260_unified_pmod.xdc",
+      "sha256": "410e8e1feb33a741deff5aeaeb5a2c550cf198a746c686d3c6796e37d185fc08"
+    },
+    {
+      "path": "board_20261103/constraints/kv260_unified_cdc.xdc",
+      "sha256": "de410dbeecf5e534265389193bee48ae50c430954a901b4c78d69a28d9830ad4"
+    },
+    {
+      "path": "board_20261103/scripts/create_board_bd.tcl",
+      "sha256": "2480184b18b0a3fc352f3f0f9b5cae99d0a122aa73d7c0e9955bbe40fd88deab"
+    },
+    {
+      "path": "board_20261103/scripts/board_pre_opt.tcl",
+      "sha256": "af1f2444660e06e3c9146a508a89242fe5d158e8baa7081340ee257919de31fc"
+    },
+    {
+      "path": "board_20261103/platform/ps_baseline_parameters.tcl",
+      "sha256": "842bb28b7730b70c9e35b79cc4382f63784806de2b872ceb6a9f73c5e20d6767"
+    }
+  ],
+  "origin": "Existing successful routed/bitgen candidate, not rebuilt during publication",
+  "source_commit_link": "Exact Git commit is recorded in RAR RELEASE_METADATA.json",
+  "git_binary_upload": false,
+  "board_loaded": false,
+  "physical_output_enabled": false
+}

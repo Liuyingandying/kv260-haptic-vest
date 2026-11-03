@@ -1,0 +1,38 @@
+test_busy_flag_must_be_explicit_true_for_quiescence (test_frame_admission.AdmissionTest.test_busy_flag_must_be_explicit_true_for_quiescence) ... ok
+test_busy_keeps_exactly_latest_and_overwrites (test_frame_admission.AdmissionTest.test_busy_keeps_exactly_latest_and_overwrites) ... ok
+test_clock_unverified_default_never_admits_complete (test_frame_admission.AdmissionTest.test_clock_unverified_default_never_admits_complete) ... ok
+test_duplicate_and_reordered_never_admitted (test_frame_admission.AdmissionTest.test_duplicate_and_reordered_never_admitted) ... ok
+test_explicit_resume_required_initially (test_frame_admission.AdmissionTest.test_explicit_resume_required_initially) ... ok
+test_host_clock_regression_fail_closed (test_frame_admission.AdmissionTest.test_host_clock_regression_fail_closed) ... ok
+test_invalid_schema_clears_pending (test_frame_admission.AdmissionTest.test_invalid_schema_clears_pending) ... ok
+test_new_sequence_with_replayed_capture_is_rejected (test_frame_admission.AdmissionTest.test_new_sequence_with_replayed_capture_is_rejected) ... ok
+test_new_session_and_resume_after_unusable (test_frame_admission.AdmissionTest.test_new_session_and_resume_after_unusable) ... ok
+test_old_session_never_restored (test_frame_admission.AdmissionTest.test_old_session_never_restored) ... ok
+test_partial_preempts_busy_and_keeps_near_and_unknown (test_frame_admission.AdmissionTest.test_partial_preempts_busy_and_keeps_near_and_unknown) ... ok
+test_partial_requires_explicit_resume_for_next_complete (test_frame_admission.AdmissionTest.test_partial_requires_explicit_resume_for_next_complete) ... ok
+test_pending_rechecks_exact_250ms_and_does_not_refresh_capture (test_frame_admission.AdmissionTest.test_pending_rechecks_exact_250ms_and_does_not_refresh_capture) ... ok
+test_queued_frame_clock_evidence_must_be_reconfirmed (test_frame_admission.AdmissionTest.test_queued_frame_clock_evidence_must_be_reconfirmed) ... ok
+test_source_fault_preempts_without_mutating_original (test_frame_admission.AdmissionTest.test_source_fault_preempts_without_mutating_original) ... ok
+test_unknown_preempts_busy (test_frame_admission.AdmissionTest.test_unknown_preempts_busy) ... ok
+test_unusable_preempts_and_requires_new_session (test_frame_admission.AdmissionTest.test_unusable_preempts_and_requires_new_session) ... ok
+test_verified_complete_idle_is_admitted_host_only (test_frame_admission.AdmissionTest.test_verified_complete_idle_is_admitted_host_only) ... ok
+test_complete_real_core_and_offline_inhibit (test_unified_app.UnifiedAppTest.test_complete_real_core_and_offline_inhibit) ... ok
+test_duplicate_frame_is_rejected_by_actual_core (test_unified_app.UnifiedAppTest.test_duplicate_frame_is_rejected_by_actual_core) ... ok
+test_existing_kpf_audit_preserves_bytes_not_live (test_unified_app.UnifiedAppTest.test_existing_kpf_audit_preserves_bytes_not_live) ... ok
+test_future_is_unusable (test_unified_app.UnifiedAppTest.test_future_is_unusable) ... ok
+test_invalid_kpf_rejected (test_unified_app.UnifiedAppTest.test_invalid_kpf_rejected) ... ok
+test_live_mode_has_no_hardware_backend (test_unified_app.UnifiedAppTest.test_live_mode_has_no_hardware_backend) ... ok
+test_malformed_bdp_is_rejected (test_unified_app.UnifiedAppTest.test_malformed_bdp_is_rejected) ... ok
+test_mismatched_configuration_is_rejected (test_unified_app.UnifiedAppTest.test_mismatched_configuration_is_rejected) ... ok
+test_missing_timestamp_is_unusable (test_unified_app.UnifiedAppTest.test_missing_timestamp_is_unusable) ... ok
+test_out_of_order_is_unusable (test_unified_app.UnifiedAppTest.test_out_of_order_is_unusable) ... ok
+test_output_directory_is_never_overwritten (test_unified_app.UnifiedAppTest.test_output_directory_is_never_overwritten) ... ok
+test_partial_retains_near_level_and_unknown (test_unified_app.UnifiedAppTest.test_partial_retains_near_level_and_unknown) ... ok
+test_stale_is_unusable (test_unified_app.UnifiedAppTest.test_stale_is_unusable) ... ok
+test_unknown_is_not_safe_zero (test_unified_app.UnifiedAppTest.test_unknown_is_not_safe_zero) ... ok
+test_vh_mem_exactly_reconstruct_384_bytes (test_unified_app.UnifiedAppTest.test_vh_mem_exactly_reconstruct_384_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.461s
+
+OK

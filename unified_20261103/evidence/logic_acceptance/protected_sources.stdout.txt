@@ -1,0 +1,284 @@
+{
+  "result": "PASS",
+  "protected_sources": 46,
+  "errors": [],
+  "files": [
+    {
+      "file": "rtl\\axi_status_regs.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\block_refresh_buffer.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\dirty_detector.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\duty_lut_rom.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\failsafe_timer.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\fault_recovery_ctrl.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\haptic_oe_guard.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\i2c_fault_monitor.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\i2c_master.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\i2c_transaction_builder.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\kv260_haptic_iobuf_wrapper.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\kv260_haptic_pipeline.v",
+      "original_unchanged": true,
+      "copy_byte_identical": false,
+      "approved_integration_copy": true
+    },
+    {
+      "file": "rtl\\kv260_haptic_top.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\kv260_i2c_bringup_top.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\kv260_perception_axi_wrap.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\matrix_buffer.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\matrix_buffer_axi.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\matrix_map_rom.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\pca9685_burst_builder.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\pca_init_sequencer.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\scheduler_fsm.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\tactile_render_top.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\tactile_v12_ctrl.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\tca9548_inject.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\perception_axi_adapter.sv",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\kv260_perception_top.sv",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl\\i2c_master_100k_candidate.v",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\accepted_live_v3.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\gc_window.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\kpf1_codec.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\latest_slot.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\live_pl_loop.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\live_ram_bootstrap.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\mailbox_bridge.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\quality_bridge.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\run_live_pl.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime\\v4l2_support.py",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core\\basic_depth.cpp",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core\\basic_depth.hpp",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core\\basic_depth_cli.cpp",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core\\phase_profile.hpp",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core\\native_mailbox\\live_mailbox.c",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core\\core_config.txt",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "fixtures/saved_00.bdp",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "fixtures/saved_00_expected.kpf",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "fixtures/saved_00_expected.mem",
+      "original_unchanged": true,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    }
+  ],
+  "hardware_access": false
+}

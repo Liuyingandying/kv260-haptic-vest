@@ -1,0 +1,8 @@
+{
+  "scope": "Host scheduling model only; not integrated with live runtime",
+  "tests": 18,
+  "failures": [],
+  "errors": [],
+  "status": "PASS",
+  "hardware_action_taken": false
+}

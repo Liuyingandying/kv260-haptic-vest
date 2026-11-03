@@ -1,0 +1,11 @@
+# Preserve the source/fixture bytes covered by the unified SHA256 manifests.
+/unified_20261103/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Frozen/vendor/evidence snapshots retain their original bytes and formatting.
+/unified_20261103/core/** -whitespace
+/unified_20261103/runtime/** -whitespace
+/unified_20261103/rtl/** -whitespace
+/unified_20261103/evidence/** -whitespace
+/unified_20261103/board_20261103/platform/** -whitespace
+/unified_20261103/board_20261103/rtl/** -whitespace
+/unified_20261103/README_UNIFIED.md -whitespace
+/unified_20261103/board_20261103/README_BOARD.md -whitespace

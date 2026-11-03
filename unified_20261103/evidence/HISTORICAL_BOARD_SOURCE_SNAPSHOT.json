@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\perception_axi_adapter.sv",
+      "copy": "rtl\\core\\perception_axi_adapter.sv",
+      "sha256": "0064e5e63b63d2b7b5292edcff8f6eb2719ecf4c0c70f72964c2cb220aa0b822"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\matrix_buffer.v",
+      "copy": "rtl\\core\\matrix_buffer.v",
+      "sha256": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\matrix_buffer_axi.v",
+      "copy": "rtl\\core\\matrix_buffer_axi.v",
+      "sha256": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\matrix_map_rom.v",
+      "copy": "rtl\\core\\matrix_map_rom.v",
+      "sha256": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\duty_lut_rom.v",
+      "copy": "rtl\\core\\duty_lut_rom.v",
+      "sha256": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\scheduler_fsm.v",
+      "copy": "rtl\\core\\scheduler_fsm.v",
+      "sha256": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\dirty_detector.v",
+      "copy": "rtl\\core\\dirty_detector.v",
+      "sha256": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\block_refresh_buffer.v",
+      "copy": "rtl\\core\\block_refresh_buffer.v",
+      "sha256": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\pca9685_burst_builder.v",
+      "copy": "rtl\\core\\pca9685_burst_builder.v",
+      "sha256": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\tca9548_inject.v",
+      "copy": "rtl\\core\\tca9548_inject.v",
+      "sha256": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\failsafe_timer.v",
+      "copy": "rtl\\core\\failsafe_timer.v",
+      "sha256": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\tactile_v12_ctrl.v",
+      "copy": "rtl\\core\\tactile_v12_ctrl.v",
+      "sha256": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\pca_init_sequencer.v",
+      "copy": "rtl\\core\\pca_init_sequencer.v",
+      "sha256": "bc76c0ac670e7d4376fefcb45df812ce5d3587f72ddc536a85742da511d65cdb"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\i2c_fault_monitor.v",
+      "copy": "rtl\\core\\i2c_fault_monitor.v",
+      "sha256": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\fault_recovery_ctrl.v",
+      "copy": "rtl\\core\\fault_recovery_ctrl.v",
+      "sha256": "610063bdbe7878b4b62645f38bc419dbebc6ecd4ac3e0eeac4b3dc12ba02d6ce"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\axi_status_regs.v",
+      "copy": "rtl\\core\\axi_status_regs.v",
+      "sha256": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\i2c_master_100k_candidate.v",
+      "copy": "rtl\\core\\i2c_master_100k_candidate.v",
+      "sha256": "ce6c77606f2deed735d1469fccdfb1da182c2873679851100de4d437f99c2bf7"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\kv260_haptic_pipeline.v",
+      "copy": "rtl\\core\\kv260_haptic_pipeline.v",
+      "sha256": "7bfe5abf52f3809472cba7aa400b948d3161df256657123135f36a3c282f6ac4"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\rtl\\unified_perception_haptic.sv",
+      "copy": "rtl\\core\\unified_perception_haptic.sv",
+      "sha256": "ae127e100125ea98f929dfa4adb421807f26bb31aedcab7ee5b39143d4c75689"
+    }
+  ]
+}

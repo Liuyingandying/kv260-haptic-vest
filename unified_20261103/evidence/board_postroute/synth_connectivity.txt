@@ -1,0 +1,16 @@
+PORT=i2c_scl_io PIN=H12 IO=LVCMOS33 DRIVE=4 SLEW=SLOW PULL=PULLUP
+PORT=i2c_sda_io PIN=B10 IO=LVCMOS33 DRIVE=4 SLEW=SLOW PULL=PULLUP
+IOBUF=u_scl_iobuf
+ u_scl_iobuf/IO NET=i2c_scl_io
+ u_scl_iobuf/O NET=scl_sense
+ u_scl_iobuf/I NET=<const0>
+ u_scl_iobuf/T NET=<const1>
+IOBUF=u_sda_iobuf
+ u_sda_iobuf/IO NET=i2c_sda_io
+ u_sda_iobuf/O NET=sda_sense
+ u_sda_iobuf/I NET=<const0>
+ u_sda_iobuf/T NET=<const1>
+USB=EMIOHUBPORTOVERCRNTUSB20 NET=u_ps_bd/kv260_unified_ps_i/zynq_ultra_ps_e_0/inst/<const0> DRIVER_REFS=GND
+USB=EMIOHUBPORTOVERCRNTUSB21 NET=u_ps_bd/kv260_unified_ps_i/zynq_ultra_ps_e_0/inst/<const0> DRIVER_REFS=GND
+USB=EMIOHUBPORTOVERCRNTUSB30 NET=u_ps_bd/kv260_unified_ps_i/zynq_ultra_ps_e_0/inst/<const0> DRIVER_REFS=GND
+USB=EMIOHUBPORTOVERCRNTUSB31 NET=u_ps_bd/kv260_unified_ps_i/zynq_ultra_ps_e_0/inst/<const0> DRIVER_REFS=GND

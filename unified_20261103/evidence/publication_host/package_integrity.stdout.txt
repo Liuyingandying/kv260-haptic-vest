@@ -1,0 +1,920 @@
+{
+  "result": "PASS",
+  "protected_sources": 152,
+  "errors": [],
+  "files": [
+    {
+      "file": "core/basic_depth.cpp",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core/basic_depth.hpp",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core/basic_depth_cli.cpp",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core/core_config.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core/native_mailbox/live_mailbox.c",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "core/phase_profile.hpp",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "fixtures/saved_00.bdp",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "fixtures/saved_00_expected.kpf",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "fixtures/saved_00_expected.mem",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/axi_status_regs.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/block_refresh_buffer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/dirty_detector.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/duty_lut_rom.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/failsafe_timer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/fault_recovery_ctrl.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/haptic_oe_guard.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/i2c_fault_monitor.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/i2c_master.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/i2c_master_100k_candidate.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/i2c_transaction_builder.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/kv260_haptic_iobuf_wrapper.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/kv260_haptic_pipeline.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": true
+    },
+    {
+      "file": "rtl/kv260_haptic_top.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/kv260_i2c_bringup_top.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/kv260_perception_axi_wrap.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/kv260_perception_top.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/matrix_buffer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/matrix_buffer_axi.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/matrix_map_rom.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/pca9685_burst_builder.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/pca_init_sequencer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/perception_axi_adapter.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/scheduler_fsm.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/tactile_render_top.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/tactile_v12_ctrl.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/tca9548_inject.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "rtl/unified_perception_haptic.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/accepted_live_v3.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/frame_admission.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/gc_window.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/kpf1_codec.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/latest_slot.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/live_pl_loop.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/live_ram_bootstrap.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/mailbox_bridge.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/quality_bridge.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/run_live_pl.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/unified_app.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "runtime/v4l2_support.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/create_review_project.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/finalize_status.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/open_review.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/run_all.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/run_rtl_tests.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/run_saved_frame.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/source_list.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/verify_sources.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "tests/tb_unified.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "tests/test_frame_admission.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "tests/test_unified_app.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "Open_Logic_Review.cmd",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "Open_Unified_Vivado.cmd",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "Run_Offline_Acceptance.cmd",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "README_UNIFIED.md",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/axi_status_regs.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/block_refresh_buffer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/dirty_detector.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/duty_lut_rom.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/failsafe_timer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/fault_recovery_ctrl.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/i2c_fault_monitor.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/i2c_master_100k_candidate.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/kv260_haptic_pipeline.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/matrix_buffer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/matrix_buffer_axi.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/matrix_map_rom.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/pca9685_burst_builder.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/pca_init_sequencer.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/perception_axi_adapter.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/scheduler_fsm.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/tactile_v12_ctrl.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/tca9548_inject.v",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/core/unified_perception_haptic.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/rtl/kv260_unified_board_top.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/constraints/kv260_unified_cdc.xdc",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/constraints/kv260_unified_pmod.xdc",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/board_pre_opt.tcl",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/build_board.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/collect_acceptance.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/create_board_bd.tcl",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/finalize_board.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/generate_ps_baseline.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/scripts/open_board.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/platform/PS_BASELINE_MANIFEST.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/platform/ps_baseline_parameters.tcl",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/platform/reference_k26c_1_4_part0_pins.xml",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/platform/reference_kv260_ps_bd.bd",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/platform/reference_official_kv260_bist_pin.xdc",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/platform/reference_ps.xci",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/tests/run_shell_test.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/tests/tb_board_shell.sv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/README_BOARD.md",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "board_20261103/Open_Board_Vivado.cmd",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_source_objects/address_map.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_source_objects/BOARD_BD_OBJECTS.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_source_objects/kv260_unified_ps_snapshot.tcl",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_source_objects/PS_CONFIG_OBJECT_COMPARISON.tsv",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_source_objects/PS_JSON_DECODING_RESULT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/protected_sources.stderr.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/protected_sources.stdout.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/RESULT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/rtl.stderr.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/rtl.stdout.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/saved_depth_replay.stderr.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/saved_depth_replay.stdout.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/software.stderr.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/software.stdout.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/status.stderr.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/logic_acceptance/status.stdout.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/dfx_runtime.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/physical_io_drc.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/postroute_connectivity.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/RESULT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/routed_clocks.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/routed_drc.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/routed_exceptions.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/routed_io.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/routed_status.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/routed_timing.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/stderr.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/stdout.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/synth_clocks.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/synth_connectivity.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/synth_drc.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/synth_io.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/timing_result.txt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/utilization.rpt",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_postroute/vivado.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_shell/compile.stderr.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_shell/compile.stdout.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_shell/RESULT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_shell/simulation.stderr.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/board_shell/simulation.stdout.log",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/BOARD_BUILD_ACCEPTANCE.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/INTEGRATION_STATUS.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/HISTORICAL_LATEST_BUILD.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/HISTORICAL_REVIEW_PROJECT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/HISTORICAL_ROOT_SOURCE_SNAPSHOT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/HISTORICAL_BOARD_SOURCE_SNAPSHOT.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "evidence/PIN_PROVENANCE.json",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/tool_paths.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    },
+    {
+      "file": "scripts/build_host_core.py",
+      "historical_original_rechecked": false,
+      "copy_byte_identical": true,
+      "approved_integration_copy": false
+    }
+  ],
+  "hardware_access": false
+}

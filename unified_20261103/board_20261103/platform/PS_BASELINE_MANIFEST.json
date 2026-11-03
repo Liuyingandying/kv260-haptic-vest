@@ -1,0 +1,17 @@
+{
+  "reference_files": [
+    {
+      "source": "E:\\KVIIC_VIVADO_REVIEW_20261103\\vendor_platform\\kv260_i2c_bringup.srcs\\sources_1\\bd\\kv260_ps_bd\\kv260_ps_bd.bd",
+      "copy": "E:\\KV260_UNIFIED_20261103\\board_20261103\\platform\\reference_kv260_ps_bd.bd",
+      "sha256": "929c9cf78473fbfe4e43f36df3d44236c96994ed68bdd0dd1beab7d0d13e5722"
+    },
+    {
+      "source": "E:\\KVIIC_VIVADO_REVIEW_20261103\\vendor_platform\\kv260_i2c_bringup.srcs\\sources_1\\bd\\kv260_ps_bd\\ip\\kv260_ps_bd_zynq_ultra_ps_e_0_0\\kv260_ps_bd_zynq_ultra_ps_e_0_0.xci",
+      "copy": "E:\\KV260_UNIFIED_20261103\\board_20261103\\platform\\reference_ps.xci",
+      "sha256": "2b0f8b9f3c3c4a127d22207c5736693fbd1e01453a006dc78f470189a5b02a6b"
+    }
+  ],
+  "explicit_bd_parameters": 34,
+  "full_xci_parameters": 1692,
+  "no_hardware_action": true
+}

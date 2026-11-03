@@ -1,0 +1,235 @@
+{
+  "created_utc": "2026-11-03T13:12:00.144685+00:00",
+  "files": [
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\axi_status_regs.v",
+      "copy": "rtl\\axi_status_regs.v",
+      "sha256": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\block_refresh_buffer.v",
+      "copy": "rtl\\block_refresh_buffer.v",
+      "sha256": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\dirty_detector.v",
+      "copy": "rtl\\dirty_detector.v",
+      "sha256": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\duty_lut_rom.v",
+      "copy": "rtl\\duty_lut_rom.v",
+      "sha256": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\failsafe_timer.v",
+      "copy": "rtl\\failsafe_timer.v",
+      "sha256": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\fault_recovery_ctrl.v",
+      "copy": "rtl\\fault_recovery_ctrl.v",
+      "sha256": "610063bdbe7878b4b62645f38bc419dbebc6ecd4ac3e0eeac4b3dc12ba02d6ce"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\haptic_oe_guard.v",
+      "copy": "rtl\\haptic_oe_guard.v",
+      "sha256": "12fa6ca51b8cee00519333353b166ba91fe3e173dbf3e3a1e3a9a14184cfa853"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\i2c_fault_monitor.v",
+      "copy": "rtl\\i2c_fault_monitor.v",
+      "sha256": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\i2c_master.v",
+      "copy": "rtl\\i2c_master.v",
+      "sha256": "6eec4dd12264be0e2bf6ea47998839d0d0629fd0468f89eb7d3a2887a76d5c4a"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\i2c_transaction_builder.v",
+      "copy": "rtl\\i2c_transaction_builder.v",
+      "sha256": "cafbc7be5851751a540190e02267dc55adba2b2e8ad30caf7bf57c9931aced1d"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\kv260_haptic_iobuf_wrapper.v",
+      "copy": "rtl\\kv260_haptic_iobuf_wrapper.v",
+      "sha256": "076583a4d88461d81516ce20c8ef8addc5639b560eaf1cd23b4da6a736ec1c58"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\kv260_haptic_pipeline.v",
+      "copy": "rtl\\kv260_haptic_pipeline.v",
+      "sha256": "95899d9bf57e52c844dffec489eb1a96c219f6fe6e6e95c54f294b862ddf2e85"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\kv260_haptic_top.v",
+      "copy": "rtl\\kv260_haptic_top.v",
+      "sha256": "a6de73db95e16cb44b12638587ffca01c99f5434298f0f062b456da127f06cd4"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\kv260_i2c_bringup_top.v",
+      "copy": "rtl\\kv260_i2c_bringup_top.v",
+      "sha256": "764d655d538a6526a2a2aa22c1b53229bef3ca84af58dccdbc3fef56168da645"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\kv260_perception_axi_wrap.v",
+      "copy": "rtl\\kv260_perception_axi_wrap.v",
+      "sha256": "57e635a9b73580c19d10e492789a3d63165ba362c33e385f1361723a4c0a2052"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\matrix_buffer.v",
+      "copy": "rtl\\matrix_buffer.v",
+      "sha256": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\matrix_buffer_axi.v",
+      "copy": "rtl\\matrix_buffer_axi.v",
+      "sha256": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\matrix_map_rom.v",
+      "copy": "rtl\\matrix_map_rom.v",
+      "sha256": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\pca9685_burst_builder.v",
+      "copy": "rtl\\pca9685_burst_builder.v",
+      "sha256": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\pca_init_sequencer.v",
+      "copy": "rtl\\pca_init_sequencer.v",
+      "sha256": "bc76c0ac670e7d4376fefcb45df812ce5d3587f72ddc536a85742da511d65cdb"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\scheduler_fsm.v",
+      "copy": "rtl\\scheduler_fsm.v",
+      "sha256": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\tactile_render_top.v",
+      "copy": "rtl\\tactile_render_top.v",
+      "sha256": "ab16f6327b9e8256294b6b254f58234bd9b469007d2c6bb6688f813521cc6320"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\tactile_v12_ctrl.v",
+      "copy": "rtl\\tactile_v12_ctrl.v",
+      "sha256": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_r2\\tca9548_inject.v",
+      "copy": "rtl\\tca9548_inject.v",
+      "sha256": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_base_extra\\perception_axi_adapter.sv",
+      "copy": "rtl\\perception_axi_adapter.sv",
+      "sha256": "0064e5e63b63d2b7b5292edcff8f6eb2719ecf4c0c70f72964c2cb220aa0b822"
+    },
+    {
+      "source": "E:\\KVHAP_4D\\rtl_base_extra\\kv260_perception_top.sv",
+      "copy": "rtl\\kv260_perception_top.sv",
+      "sha256": "38abff5848bd982c26c7b4591c860bb2b05620da5039125774cd88dbdf7f9e73"
+    },
+    {
+      "source": "E:\\KVIIC_4D_100K_FIX_20261103\\rtl\\i2c_master.v",
+      "copy": "rtl\\i2c_master_100k_candidate.v",
+      "sha256": "ce6c77606f2deed735d1469fccdfb1da182c2873679851100de4d437f99c2bf7"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\accepted_live_v3.py",
+      "copy": "runtime\\accepted_live_v3.py",
+      "sha256": "24e620a694c3532ea987c64eeebca74a67852f0b9004268698c0094cdd1fbddd"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\gc_window.py",
+      "copy": "runtime\\gc_window.py",
+      "sha256": "da37294553d85ac3fd0cf60147baedceac8fd7e89eed78b899d2e177f2b504e2"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\kpf1_codec.py",
+      "copy": "runtime\\kpf1_codec.py",
+      "sha256": "1a31e6316550edcafd738ca6ec79b7c08c8bdd2b9397f311e1b3d5e66f96f1f9"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\latest_slot.py",
+      "copy": "runtime\\latest_slot.py",
+      "sha256": "ef309d551ad15beabd5e57aed7210cf6a3e8956d2f6b4c09133adcece984ac8a"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\live_pl_loop.py",
+      "copy": "runtime\\live_pl_loop.py",
+      "sha256": "fd450ec48a7b32ed4c462c7a3d41c3e1e98c3cef0b2a60e4362b9f7b8737bc9a"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\live_ram_bootstrap.py",
+      "copy": "runtime\\live_ram_bootstrap.py",
+      "sha256": "605b72847ebfb9aefedd7cf1b5c856beeefa648aefa828926973c1e0e150768b"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\mailbox_bridge.py",
+      "copy": "runtime\\mailbox_bridge.py",
+      "sha256": "8d5f59f3b204b4e50e1fa9bd162a5c6fb3a5d515033da5abb99b26474a124388"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\quality_bridge.py",
+      "copy": "runtime\\quality_bridge.py",
+      "sha256": "a5b0e08da88f8b609d727c08031dbc3e9cbff9a166420d1c58e7b1c43bf1b37a"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\run_live_pl.py",
+      "copy": "runtime\\run_live_pl.py",
+      "sha256": "ac265aed785b9783c99cc7775b40af8251e9fc51acc0dd5e3a8b3b09866c0788"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\v4l2_support.py",
+      "copy": "runtime\\v4l2_support.py",
+      "sha256": "2a01df05c3a900f288cb0f60003c0a316e38642d59a5933be25409222c1976c5"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\sources\\optimized_core\\basic_depth.cpp",
+      "copy": "core\\basic_depth.cpp",
+      "sha256": "527fbc70898fe04ae353c6f92822e188925a3e8b473e33b0b5ff75e6c2f36b57"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\sources\\optimized_core\\basic_depth.hpp",
+      "copy": "core\\basic_depth.hpp",
+      "sha256": "f68fd9dfbd2a994ab719189ad76c0a95d3e62202cd522ed16afd161b962a9b14"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\sources\\optimized_core\\basic_depth_cli.cpp",
+      "copy": "core\\basic_depth_cli.cpp",
+      "sha256": "bd8243534e3c3e1957dcd54b909383b8012bb9391cb07e45a8f6a0b2b90a3376"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\sources\\optimized_core\\phase_profile.hpp",
+      "copy": "core\\phase_profile.hpp",
+      "sha256": "555d1691ae34958aea227c5978bd6da34598bffa5a8a4398e5984b76a1bc473c"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\sources\\native_mailbox\\live_mailbox.c",
+      "copy": "core\\native_mailbox\\live_mailbox.c",
+      "sha256": "6bfafb8d14af2217a4b3d572964bc388c101da70acdf0cbcc424f78dd091deb8"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\standalone_demo_20261019T143054Z\\frozen_release\\runtime\\gc_diagnostic_v2\\board\\core_config.txt",
+      "copy": "core\\core_config.txt",
+      "sha256": "f946eea0c578bf5410dbd184b05709f55ba8a8fd6e03338b7caf771a6124dcb0"
+    },
+    {
+      "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_Basic_Preboard\\transfer_bundle\\data\\saved_00.bdp",
+      "copy": "fixtures/saved_00.bdp",
+      "sha256": "1b0d6ee976c29be19eb2aa8aaac641be31ea6edef145b9f484bb0b759925b352"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\results\\saved_00_offline\\frame_0001.kpf",
+      "copy": "fixtures/saved_00_expected.kpf",
+      "sha256": "bbaadd5cda6a61bd6c82d5e8cd23773fa7e11908f9c8bff7f3f70ed3d0f271b7"
+    },
+    {
+      "source": "E:\\KV260_UNIFIED_20261103\\results\\saved_00_offline\\frame_0001.mem",
+      "copy": "fixtures/saved_00_expected.mem",
+      "sha256": "16da4b8393a3bc81853f88a37fa88b31e9a17e020eadfe4d9f3d46fd33abaa51"
+    }
+  ]
+}

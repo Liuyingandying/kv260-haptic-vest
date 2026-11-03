@@ -37,3 +37,19 @@ Thumbs.db
 .env
 *.pem
 *.key
+
+# New unified source publication: rebuild generated outputs locally.
+/unified_20261103/results/
+/unified_20261103/INTEGRATION_STATUS.json
+/unified_20261103/vivado/review_*/
+/unified_20261103/vivado/LATEST_REVIEW.json
+/unified_20261103/board_20261103/projects/
+/unified_20261103/board_20261103/results/
+/unified_20261103/board_20261103/evidence/
+/unified_20261103/board_20261103/tests/result_*/
+/unified_20261103/board_20261103/LATEST_BUILD.json
+/unified_20261103/board_20261103/BOARD_BUILD_ACCEPTANCE.json
+*.vvp
+*.exe
+# Retain explicitly selected historical evidence; raw caches remain ignored.
+!/unified_20261103/evidence/**/*.log

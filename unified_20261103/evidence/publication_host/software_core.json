@@ -1,0 +1,9 @@
+{
+  "scope": "Host actual frozen C++ + frozen Python bridge/codec; synthetic saved BDP1",
+  "tests": 15,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "status": "PASS",
+  "hardware_action_taken": false
+}

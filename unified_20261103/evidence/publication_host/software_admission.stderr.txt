@@ -1,0 +1,23 @@
+test_busy_flag_must_be_explicit_true_for_quiescence (__main__.AdmissionTest.test_busy_flag_must_be_explicit_true_for_quiescence) ... ok
+test_busy_keeps_exactly_latest_and_overwrites (__main__.AdmissionTest.test_busy_keeps_exactly_latest_and_overwrites) ... ok
+test_clock_unverified_default_never_admits_complete (__main__.AdmissionTest.test_clock_unverified_default_never_admits_complete) ... ok
+test_duplicate_and_reordered_never_admitted (__main__.AdmissionTest.test_duplicate_and_reordered_never_admitted) ... ok
+test_explicit_resume_required_initially (__main__.AdmissionTest.test_explicit_resume_required_initially) ... ok
+test_host_clock_regression_fail_closed (__main__.AdmissionTest.test_host_clock_regression_fail_closed) ... ok
+test_invalid_schema_clears_pending (__main__.AdmissionTest.test_invalid_schema_clears_pending) ... ok
+test_new_sequence_with_replayed_capture_is_rejected (__main__.AdmissionTest.test_new_sequence_with_replayed_capture_is_rejected) ... ok
+test_new_session_and_resume_after_unusable (__main__.AdmissionTest.test_new_session_and_resume_after_unusable) ... ok
+test_old_session_never_restored (__main__.AdmissionTest.test_old_session_never_restored) ... ok
+test_partial_preempts_busy_and_keeps_near_and_unknown (__main__.AdmissionTest.test_partial_preempts_busy_and_keeps_near_and_unknown) ... ok
+test_partial_requires_explicit_resume_for_next_complete (__main__.AdmissionTest.test_partial_requires_explicit_resume_for_next_complete) ... ok
+test_pending_rechecks_exact_250ms_and_does_not_refresh_capture (__main__.AdmissionTest.test_pending_rechecks_exact_250ms_and_does_not_refresh_capture) ... ok
+test_queued_frame_clock_evidence_must_be_reconfirmed (__main__.AdmissionTest.test_queued_frame_clock_evidence_must_be_reconfirmed) ... ok
+test_source_fault_preempts_without_mutating_original (__main__.AdmissionTest.test_source_fault_preempts_without_mutating_original) ... ok
+test_unknown_preempts_busy (__main__.AdmissionTest.test_unknown_preempts_busy) ... ok
+test_unusable_preempts_and_requires_new_session (__main__.AdmissionTest.test_unusable_preempts_and_requires_new_session) ... ok
+test_verified_complete_idle_is_admitted_host_only (__main__.AdmissionTest.test_verified_complete_idle_is_admitted_host_only) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.007s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "explicit": 34,
+  "full": 1692,
+  "fragmented_parameters": [
+    "PSU__PROTECTION__LPD_SEGMENTS",
+    "PSU__PROTECTION__SLAVES"
+  ],
+  "separator": "",
+  "reference_files_unchanged": true,
+  "generated_sha256": "842bb28b7730b70c9e35b79cc4382f63784806de2b872ceb6a9f73c5e20d6767"
+}

@@ -1,0 +1,56 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date              : Tue Nov  3 22:36:36 2026
+| Host              : Liuying running 64-bit major release  (build 9200)
+| Command           : report_exceptions -coverage -file E:/KV260_UNIFIED_20261103/board_20261103/results/postcheck_20261103T143545009515Z/routed_exceptions.rpt
+| Design            : kv260_unified_board_top
+| Device            : xck26-sfvc784
+| Speed File        : -2LV  PRODUCTION 1.30 05-15-2022
+| Design State      : Routed
+| Temperature Grade : C
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  Type        Setup  Hold   From     Through  To        Endpoints  From (%)  Through (%)  To (%)
+--------  ----------  -----  -----  -------  -------  --------  ---------  --------  -----------  ------
+2         False Path  false  false  1 ports           1 pins    1          100.00                 100.00
+3         False Path  false  false  1 ports           1 pins    1          100.00                 100.00
+4         False Path  false  false                    32 cells  28                                28.12
+5         False Path  false  false                    32 cells  0                                 0.00
+7         False Path  false  false           1 pins             3                    100.00        
+8         False Path  false  false           1 pins             3                    100.00        
+10        False Path  false  false           1 pins             3                    100.00        
+11        False Path  false  false           1 pins             3                    100.00        
+12        False Path  false  false           1 pins             3                    100.00        
+13        False Path  false  false           1 pins             3                    100.00        
+14        False Path  false  false           1 pins             3                    100.00        
+16        False Path  false  false           1 pins             3                    100.00        
+18        False Path  false  false           1 pins             3                    100.00        
+19        False Path  false  false           1 pins             3                    100.00        
+21        False Path  false  false           1 pins             3                    100.00        
+23        False Path  false  false           1 pins             3                    100.00        
+25        False Path  false  false           1 pins             3                    100.00        
+27        False Path  false  false           1 pins             3                    100.00        
+30        False Path  false  false           1 pins             3                    100.00        
+32        False Path  false  false           1 pins             3                    100.00        
+34        False Path  false  false           1 pins             3                    100.00        
+36        False Path  false  false           1 pins             3                    100.00        
+38        False Path  false  false           1 pins             3                    100.00        
+40        False Path  false  false           1 pins             3                    100.00        
+41        False Path  false  false           1 pins             3                    100.00        
+43        False Path  false  false           1 pins             3                    100.00        
+45        False Path  false  false           1 pins             3                    100.00        
+47        False Path  false  false           1 pins             3                    100.00        
+49        False Path  false  false           1 pins             3                    100.00        
+52        False Path  false  false           1 pins             3                    100.00        
+54        False Path  false  false           1 pins             3                    100.00        
+56        False Path  false  false           1 pins             3                    100.00        
+57        False Path  false  false           1 pins             3                    100.00        
+58        False Path  false  false           1 pins             3                    100.00        
+60        False Path  false  false           1 pins             3                    100.00        
+62        False Path  false  false                    1 cells   1                                 33.33
+63        False Path  false  false                    1 cells   0                                 0.00
+
+Warning: the percentages reported indicate the number of pins covered by the exception relative to the number of pins specified implicitly or explicitly.

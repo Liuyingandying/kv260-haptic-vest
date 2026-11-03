@@ -1,0 +1,3 @@
+BOARD_SHELL_RESULT checks=48 failures=0 PS_MODEL_ONLY=1 HARDWARE_ACTION=0
+BOARD_SHELL_PASS
+E:\01_Projects\FPGA_Embedded\kv260_haptic_publish_20261103\repository\unified_20261103\board_20261103\tests\tb_board_shell.sv:133: $finish called at 536000 (1ps)

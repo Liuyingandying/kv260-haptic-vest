@@ -1,0 +1,1 @@
+HOST_CORE_BUILT E:\01_Projects\FPGA_Embedded\kv260_haptic_publish_20261103\repository\unified_20261103\results\host_core\basic_depth.host.exe

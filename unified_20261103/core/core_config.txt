@@ -1,0 +1,14 @@
+# Optical-axis metres; candidate parameters, not physical calibration.
+measurement_min_m=0.1
+measurement_max_m=6.0
+quantize_min_m=0.3
+attention_max_m=2.5
+danger_m=0.8
+caution_m=1.5
+connect_abs_m=0.08
+connect_rel=0.12
+surface_min_pixels=4
+percentile=10
+complete_ratio=0.90
+stale_ms=250
+future_tolerance_ms=40

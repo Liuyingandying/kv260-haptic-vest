@@ -1,3 +1,4 @@
+> **2026-11-03 最新统一候选：** 请从 [unified_20261103/README.md](unified_20261103/README.md) 进入。新增完整PS BD、板级顶层、IOBUF、两份XDC、冻结感知参考、384B桥接及触觉RTL；本地实现通过，**尚未上板，默认禁止实体输出，未验收震动**。现有根目录4D及分阶段资料保留为历史基线。
 # kv260-haptic-vest
 
 FPGA-based 16x16 haptic matrix controller development on AMD Kria KV260, featuring AXI frame

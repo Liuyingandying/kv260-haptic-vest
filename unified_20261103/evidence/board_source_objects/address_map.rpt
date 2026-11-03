@@ -1,0 +1,14 @@
+######################################################################################
+# This is a generated CSV file representing the addressing in design kv260_unified_ps
+#
+# Format:
+# Master Segment Name, Address Space, Slave Segment, Offset, Range ...
+#      Excluded (optional), Included (optional), Unassigned (optional)
+######################################################################################
+
+# 
+# Assignments in Address Space /zynq_ultra_ps_e_0/Data
+#
+SEG_M_AXI_STATUS_Reg,/zynq_ultra_ps_e_0/Data,/M_AXI_STATUS/Reg,0x9C000000,64K
+SEG_diag_gpio_Reg,/zynq_ultra_ps_e_0/Data,/diag_gpio/S_AXI/Reg,0x9E000000,64K
+SEG_M_AXI_PERCEPTION_Reg,/zynq_ultra_ps_e_0/Data,/M_AXI_PERCEPTION/Reg,0x9F000000,64K

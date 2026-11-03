@@ -1,0 +1,59 @@
+{
+  "command": [
+    "E:\\vivado\\2025.2\\Vivado\\bin\\vivado.bat",
+    "-mode",
+    "batch",
+    "-notrace",
+    "-source",
+    "E:\\KV260_UNIFIED_20261103\\board_20261103\\results\\postcheck_20261103T143545009515Z\\postcheck.tcl",
+    "-log",
+    "E:\\KV260_UNIFIED_20261103\\board_20261103\\results\\postcheck_20261103T143545009515Z\\vivado.log",
+    "-journal",
+    "E:\\KV260_UNIFIED_20261103\\board_20261103\\results\\postcheck_20261103T143545009515Z\\vivado.jou"
+  ],
+  "project": "E:\\KV260_UNIFIED_20261103\\board_20261103\\projects\\build_20261103T135845492277Z\\kv260_unified_board.xpr",
+  "stage": "postcheck_existing_implemented_design",
+  "input_sha256": {
+    "rtl\\core\\perception_axi_adapter.sv": "0064e5e63b63d2b7b5292edcff8f6eb2719ecf4c0c70f72964c2cb220aa0b822",
+    "rtl\\core\\matrix_buffer.v": "bf7564d6b3d3fdc28b76655587f434efc371e87abc292c13514c3108fcf9a394",
+    "rtl\\core\\matrix_buffer_axi.v": "53dc927cdfe4a1c098331910ae86be8b43dd722cf53abee6e46307210cb67397",
+    "rtl\\core\\matrix_map_rom.v": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b",
+    "rtl\\core\\duty_lut_rom.v": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122",
+    "rtl\\core\\scheduler_fsm.v": "2c2557057f2a846a2814a81a4ec6ca1d2f6bf0806df9685cfda36ef66090d8eb",
+    "rtl\\core\\dirty_detector.v": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8",
+    "rtl\\core\\block_refresh_buffer.v": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec",
+    "rtl\\core\\pca9685_burst_builder.v": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a",
+    "rtl\\core\\tca9548_inject.v": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78",
+    "rtl\\core\\failsafe_timer.v": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f",
+    "rtl\\core\\tactile_v12_ctrl.v": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8",
+    "rtl\\core\\pca_init_sequencer.v": "bc76c0ac670e7d4376fefcb45df812ce5d3587f72ddc536a85742da511d65cdb",
+    "rtl\\core\\i2c_fault_monitor.v": "078c48cff70e2dfc5e398ed7a7e416a0be79812c3427ef6111e9d5ab1d9e5f6c",
+    "rtl\\core\\fault_recovery_ctrl.v": "610063bdbe7878b4b62645f38bc419dbebc6ecd4ac3e0eeac4b3dc12ba02d6ce",
+    "rtl\\core\\axi_status_regs.v": "57b15b840fc6104c47bf1ec5e19aab95bbd61609ea080f5966fdefd5bde91c2c",
+    "rtl\\core\\i2c_master_100k_candidate.v": "ce6c77606f2deed735d1469fccdfb1da182c2873679851100de4d437f99c2bf7",
+    "rtl\\core\\kv260_haptic_pipeline.v": "7bfe5abf52f3809472cba7aa400b948d3161df256657123135f36a3c282f6ac4",
+    "rtl\\core\\unified_perception_haptic.sv": "ae127e100125ea98f929dfa4adb421807f26bb31aedcab7ee5b39143d4c75689",
+    "rtl\\kv260_unified_board_top.sv": "5d8dabeadd3e72508b7f70eae49d233014ec0730bf20b0ca436ebc5e98b4bf7a",
+    "constraints\\kv260_unified_pmod.xdc": "410e8e1feb33a741deff5aeaeb5a2c550cf198a746c686d3c6796e37d185fc08",
+    "constraints\\kv260_unified_cdc.xdc": "de410dbeecf5e534265389193bee48ae50c430954a901b4c78d69a28d9830ad4",
+    "scripts\\create_board_bd.tcl": "2480184b18b0a3fc352f3f0f9b5cae99d0a122aa73d7c0e9955bbe40fd88deab",
+    "scripts\\board_pre_opt.tcl": "af1f2444660e06e3c9146a508a89242fe5d158e8baa7081340ee257919de31fc",
+    "platform\\ps_baseline_parameters.tcl": "842bb28b7730b70c9e35b79cc4382f63784806de2b872ceb6a9f73c5e20d6767"
+  },
+  "exit_code": 0,
+  "status": "PASS",
+  "result_directory": "E:\\KV260_UNIFIED_20261103\\board_20261103\\results\\postcheck_20261103T143545009515Z",
+  "bitstreams": [
+    "E:\\KV260_UNIFIED_20261103\\board_20261103\\projects\\build_20261103T135845492277Z\\kv260_unified_board.runs\\impl_1\\kv260_unified_board_top.bit"
+  ],
+  "bitstream_sha256": {
+    "E:\\KV260_UNIFIED_20261103\\board_20261103\\projects\\build_20261103T135845492277Z\\kv260_unified_board.runs\\impl_1\\kv260_unified_board_top.bit": "d13c0fa9fbda9513c51f647388d347c7880865f18bf7f1f9d29236f58981a9e1"
+  },
+  "upstream_build_result": "E:\\KV260_UNIFIED_20261103\\board_20261103\\results\\build_20261103T142233241579Z\\RESULT.json",
+  "upstream_process_exit_code": 1,
+  "upstream_postprocessing_error": "get_drc_violations -of_objects unsupported; route and bitgen had completed",
+  "synthesis_rerun": false,
+  "implementation_rerun": false,
+  "board_access": false,
+  "board_load": false
+}

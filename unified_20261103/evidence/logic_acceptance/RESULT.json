@@ -1,0 +1,59 @@
+{
+  "result": "PASS",
+  "stages": [
+    {
+      "stage": "protected_sources",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\KV260_UNIFIED_20261103\\scripts\\verify_sources.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "software",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "E:\\KV260_UNIFIED_20261103\\tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "saved_depth_replay",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\KV260_UNIFIED_20261103\\scripts\\run_saved_frame.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "rtl",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\KV260_UNIFIED_20261103\\scripts\\run_rtl_tests.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "status",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\KV260_UNIFIED_20261103\\scripts\\finalize_status.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "hardware_test": "NOT_RUN",
+  "physical_output_enabled": false
+}

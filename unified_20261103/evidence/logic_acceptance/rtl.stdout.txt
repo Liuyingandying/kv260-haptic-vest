@@ -1,0 +1,35 @@
+RUN case=0 stage=case0_compile stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case0_compile.stdout.log
+RUN case=0 stage=case0_run stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case0_run.stdout.log
+SCENARIO case=0 n=1 t=6000000 real 4D initializer through independent pin-level slave
+SCENARIO case=0 n=2 t=246275000000 COMPLETE384B reaches real scheduler/map/LUT and all16 PCA PWM transactions
+SCENARIO case=0 n=3 t=354071000000 PARTIAL retains near matrix/UNKNOWN and revokes output authorization
+SCENARIO case=0 n=4 t=463342000000 UNKNOWN and UNUSABLE remain explicit and never promote control
+SCENARIO case=0 n=5 t=465206000000 old session cannot recover after GAP; new session requires genuine new frame
+SCENARIO case=0 n=6 t=573938000000 duplicate frame cannot renew control; fresh next sequence recovers
+SCENARIO case=0 n=7 t=682610000000 PARTIAL arriving during real IIC refresh immediately revokes authority
+SCENARIO case=0 n=8 t=791986000000 busy revocation requires latched-OFF, explicit reinit and new-session recovery
+SCENARIO case=0 n=9 t=1146043000000 software silence expires within unchanged250ms lifetime
+SCENARIO case=0 n=10 t=1396103000000 declared stale250001us frame never enables control
+UNIFIED_RESULT case=0 scenarios=10 checks=3316 failures=0 bytes=12892 transactions=661 init_full_off=32 runtime_nonzero=48 runtime_full_off=96 control_commits=4 hgen=4 aborted_bulk=1 elapsed_ps=1397035000000
+UNIFIED_SIM_PASS case=0
+RUN case=1 stage=case1_compile stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case1_compile.stdout.log
+RUN case=1 stage=case1_run stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case1_run.stdout.log
+SCENARIO case=1 n=1 t=6000000 real 4D initializer through independent pin-level slave
+UNIFIED_RESULT case=1 scenarios=1 checks=440 failures=0 bytes=337 transactions=338 init_full_off=0 runtime_nonzero=0 runtime_full_off=0 control_commits=0 hgen=0 aborted_bulk=0 elapsed_ps=275988000000
+UNIFIED_SIM_PASS case=1
+RUN case=2 stage=case2_compile stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case2_compile.stdout.log
+RUN case=2 stage=case2_run stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case2_run.stdout.log
+SCENARIO case=2 n=1 t=6000000 real 4D initializer through independent pin-level slave
+SCENARIO case=2 n=2 t=246275000000 default SIM_CONTROL_ENABLE=0 inhibits even valid COMPLETE
+UNIFIED_RESULT case=2 scenarios=2 checks=378 failures=0 bytes=2466 transactions=161 init_full_off=16 runtime_nonzero=0 runtime_full_off=16 control_commits=0 hgen=0 aborted_bulk=0 elapsed_ps=248157000000
+UNIFIED_SIM_PASS case=2
+RUN case=3 stage=case3_compile stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case3_compile.stdout.log
+RUN case=3 stage=case3_run stdout=E:\KV260_UNIFIED_20261103\results\rtl_20261103T133414_391408Z\case3_run.stdout.log
+SCENARIO case=3 n=1 t=6000000 saved REAL depth core/quality/codec KPF1 replay, never LIVE/control
+SAVED_REPLAY_RESULT unknown_cells=85 nonzero_cells=218 original_words=96 hardware_live=0
+UNIFIED_RESULT case=3 scenarios=1 checks=309 failures=0 bytes=14 transactions=5 init_full_off=0 runtime_nonzero=0 runtime_full_off=0 control_commits=0 hgen=0 aborted_bulk=0 elapsed_ps=1418000000
+UNIFIED_SIM_PASS case=3
+{
+  "status": "PASS",
+  "result_directory": "E:\\KV260_UNIFIED_20261103\\results\\rtl_20261103T133414_391408Z"
+}

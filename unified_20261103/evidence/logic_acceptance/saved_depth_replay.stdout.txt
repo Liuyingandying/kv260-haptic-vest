@@ -1,0 +1,2 @@
+{"status": "PASS_OFFLINE_ONLY", "frames": 1, "output_dir": "E:\\KV260_UNIFIED_20261103\\results\\saved_replay_20261103T133414140795Z", "physical_output_permitted": false, "hardware_access_performed": false}
+PASS_SAVED_KPF1_ALL_384_BYTES_MATCH_OFFLINE_ONLY E:\KV260_UNIFIED_20261103\results\saved_replay_20261103T133414140795Z

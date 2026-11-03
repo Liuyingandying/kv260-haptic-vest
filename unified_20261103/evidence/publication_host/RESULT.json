@@ -1,0 +1,78 @@
+{
+  "result": "PASS",
+  "stages": [
+    {
+      "stage": "package_integrity",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\scripts\\verify_sources.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "host_core_build",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\scripts\\build_host_core.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "software_core",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\tests\\test_unified_app.py",
+        "--json-report",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\results\\acceptance_20261103T145324665590Z\\software_core.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "software_admission",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\tests\\test_frame_admission.py",
+        "--json-report",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\results\\acceptance_20261103T145324665590Z\\software_admission.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "saved_depth_replay",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\scripts\\run_saved_frame.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "rtl",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\scripts\\run_rtl_tests.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "status",
+      "command": [
+        "D:\\03_Runtimes\\Conda\\python.exe",
+        "-B",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\scripts\\finalize_status.py",
+        "--core-report",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\results\\acceptance_20261103T145324665590Z\\software_core.json",
+        "--admission-report",
+        "E:\\01_Projects\\FPGA_Embedded\\kv260_haptic_publish_20261103\\repository\\unified_20261103\\results\\acceptance_20261103T145324665590Z\\software_admission.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "hardware_test": "NOT_RUN",
+  "physical_output_enabled": false
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_PMOD_Audit_20261011\\kv_pinout\\official_kv260_bist_pin.xdc",
+    "copy": "platform\\reference_official_kv260_bist_pin.xdc",
+    "sha256": "8a0bffecd3db482571b9cac3efb8af512dd2625ee8ca0959b1980dac87647d12",
+    "used_as_constraint": false
+  },
+  {
+    "source": "E:\\01_Projects\\FPGA_Embedded\\KV260_PMOD_Audit_20261011\\kv_pinout\\k26c_1_4_part0_pins.xml",
+    "copy": "platform\\reference_k26c_1_4_part0_pins.xml",
+    "sha256": "32b1e09ef4af127b16aa3071c5b033df9767d1d1a2d5762da5b38d9ad2564971",
+    "used_as_constraint": false
+  }
+]
