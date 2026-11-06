@@ -1,0 +1,528 @@
+{
+  "schema": "KV260_R6_PUBLIC_EVIDENCE_SUMMARY_V1",
+  "compiled_from_existing_records_only": true,
+  "new_hardware_tests_performed_for_this_summary": false,
+  "wire_protocol": "DGM2",
+  "release_identity": {
+    "design_id": "0x52364D32",
+    "fpga_bin_sha256": "eb18234ff0d11adfb2167470e7a4ec3a213801c7ef89476263925673e4ed2021",
+    "runtime_run_d1_live_sha256": "f30aa975288d770433fd235ea78edd758f1344802efec755f1124f87815ee300",
+    "runtime_manifest_sha256": "aa3c8c46f6f4ae15ac43dcd4f093b64c06fb79f054a99cf2b9fe11d7c4e0c45f",
+    "C3_loaded": false,
+    "source_ref": "demo60_freeze",
+    "published_adapter_source": "round6_20261106/fpga_c2/rtl/core/perception_axi_runtime_adapter.sv",
+    "published_adapter_sha256": "c9768e1ae0302f9a9c131e77780d093894e429b6d3a5d54d1246cef1a6d0fb13",
+    "published_adapter_matches_immutable_M2_member": true
+  },
+  "scope": {
+    "validated_KV260_output_block_mask": "0xF0F0",
+    "tca_channels": [
+      1,
+      3
+    ],
+    "pca_7bit_addresses": {
+      "1": [
+        "0x49",
+        "0x4A",
+        "0x4B",
+        "0x4C"
+      ],
+      "3": [
+        "0x45",
+        "0x46",
+        "0x47",
+        "0x48"
+      ]
+    },
+    "logical_matrix_indices_in_scope": [
+      128,
+      255
+    ],
+    "logical_positions_in_scope": 128,
+    "pca_count": 8,
+    "level_cap": 1,
+    "physical_all_128_individual_positions": "NOT_INDIVIDUALLY_VERIFIED",
+    "other_128_positions": "NOT_VALIDATED_BY_THIS_KV260_RELEASE; do not infer hardware damage from this scope limit."
+  },
+  "latest_live_60_second_demonstration": {
+    "evidence_type": "REAL_HARDWARE_DIGITAL_RECORDS_PLUS_SEPARATE_USER_OBSERVATION",
+    "requested_capture_seconds": 60,
+    "process_seconds_including_cleanup": 69.182752686,
+    "capture_frames": 901,
+    "processed_frames": 346,
+    "latest_slot_replacements": 555,
+    "verified_PL_transactions": 297,
+    "unknown_or_unobservable_frames_rejected": 39,
+    "source_recoveries": 1,
+    "iic_errors": 0,
+    "iic_timeouts": 0,
+    "new_kernel_errors": [],
+    "sdk_warning_counts": {
+      "OB_EVENT_TIMEOUT": 3,
+      "cancel_request_lines": 64,
+      "warning_lines": 74,
+      "error_lines": 64
+    },
+    "shutdown": {
+      "pca_devices": 8,
+      "exact_pwm_bytes_read_back": 512,
+      "expected_per_channel_bytes": [
+        0,
+        0,
+        0,
+        16
+      ],
+      "FULL_OFF_register_check": "PASS",
+      "physical_independent_power_cutoff": "NOT_PROVEN_BY_REGISTER_READBACK"
+    },
+    "actual_vibration": "PASS_USER_OBSERVED",
+    "individual_physical_mapping": "NOT_INDIVIDUALLY_VERIFIED",
+    "source_refs": [
+      "demo60_freeze",
+      "demo60_completion",
+      "demo60_native",
+      "demo60_operator"
+    ]
+  },
+  "historical_live_600_second_run": {
+    "evidence_type": "REAL_HARDWARE_DIGITAL_RECORDS",
+    "requested_capture_seconds": 600,
+    "worker_seconds": 614.044719165,
+    "verified_transactions": 2830,
+    "capture_frames": 9217,
+    "processed_frames": 3303,
+    "latest_slot_replacements": 5913,
+    "source_recoveries": 1,
+    "safe_window_renewals": 19,
+    "FULL_OFF_devices": 8,
+    "errors": [],
+    "new_kernel_errors": [],
+    "machine_reported_actual_vibration": "NOT_VERIFIED; requires a separate observer statement",
+    "source_refs": [
+      "live600_summary",
+      "live600_stage"
+    ]
+  },
+  "historical_manual_matrix_stages": {
+    "evidence_type": "MANUAL_COMMAND_BOARD_DIGITAL_READBACK_NOT_REAL_GEMINI_INPUT",
+    "stages": [
+      {
+        "cells": 8,
+        "saved_transaction_rows": 37,
+        "exact_matrix_payload_rows_passed": true,
+        "actual_nonzero_counts": [
+          8
+        ],
+        "scheduler_accepted_rows": 36,
+        "deadline_terminal_rows_without_scheduler_acceptance": [
+          37
+        ],
+        "FULL_OFF_devices": 8,
+        "actual_vibration_from_saved_digital_records": "NOT_DETERMINABLE"
+      },
+      {
+        "cells": 32,
+        "saved_transaction_rows": 37,
+        "exact_matrix_payload_rows_passed": true,
+        "actual_nonzero_counts": [
+          32
+        ],
+        "scheduler_accepted_rows": 36,
+        "deadline_terminal_rows_without_scheduler_acceptance": [
+          37
+        ],
+        "FULL_OFF_devices": 8,
+        "actual_vibration_from_saved_digital_records": "NOT_DETERMINABLE"
+      },
+      {
+        "cells": 64,
+        "saved_transaction_rows": 36,
+        "exact_matrix_payload_rows_passed": true,
+        "actual_nonzero_counts": [
+          64
+        ],
+        "scheduler_accepted_rows": 35,
+        "deadline_terminal_rows_without_scheduler_acceptance": [
+          36
+        ],
+        "FULL_OFF_devices": 8,
+        "actual_vibration_from_saved_digital_records": "NOT_DETERMINABLE"
+      },
+      {
+        "cells": 128,
+        "saved_transaction_rows": 36,
+        "exact_matrix_payload_rows_passed": true,
+        "actual_nonzero_counts": [
+          128
+        ],
+        "scheduler_accepted_rows": 35,
+        "deadline_terminal_rows_without_scheduler_acceptance": [
+          36
+        ],
+        "FULL_OFF_devices": 8,
+        "actual_vibration_from_saved_digital_records": "NOT_DETERMINABLE"
+      }
+    ],
+    "counter_limit": "Scheduler counters are global frame_done/burst progress, not a target-specific IIC ACK trace. Terminal deadline-crossing rows must not be counted as completed scheduler output.",
+    "source_refs": [
+      "staged_manual",
+      "staged_manual_sequence"
+    ]
+  },
+  "historical_RTL_simulation": {
+    "evidence_type": "HOST_RTL_SIMULATION_ONLY",
+    "pipeline_status": "PASS",
+    "pipeline_cases": [
+      {
+        "stage_cells": 8,
+        "case_id": 0,
+        "status": "PASS",
+        "checks": 941,
+        "result_line": "DGM2_PIPELINE_RESULT case=0 checks=941 failures=0 hgen=1 accepted=1 online=f0f0 nonzero_transactions=1 transactions=129"
+      },
+      {
+        "stage_cells": 32,
+        "case_id": 0,
+        "status": "PASS",
+        "checks": 990,
+        "result_line": "DGM2_PIPELINE_RESULT case=0 checks=990 failures=0 hgen=1 accepted=1 online=f0f0 nonzero_transactions=2 transactions=129"
+      },
+      {
+        "stage_cells": 64,
+        "case_id": 0,
+        "status": "PASS",
+        "checks": 1088,
+        "result_line": "DGM2_PIPELINE_RESULT case=0 checks=1088 failures=0 hgen=1 accepted=1 online=f0f0 nonzero_transactions=4 transactions=129"
+      },
+      {
+        "stage_cells": 128,
+        "case_id": 0,
+        "status": "PASS",
+        "checks": 1284,
+        "result_line": "DGM2_PIPELINE_RESULT case=0 checks=1284 failures=0 hgen=1 accepted=1 online=f0f0 nonzero_transactions=8 transactions=129"
+      },
+      {
+        "stage_cells": 128,
+        "case_id": 4,
+        "status": "PASS",
+        "checks": 712,
+        "result_line": "DGM2_PIPELINE_RESULT case=4 checks=712 failures=0 hgen=1 accepted=1 online=f0f0 nonzero_transactions=0 transactions=82"
+      },
+      {
+        "stage_cells": 128,
+        "case_id": 5,
+        "status": "PASS",
+        "checks": 716,
+        "result_line": "DGM2_PIPELINE_RESULT case=5 checks=716 failures=0 hgen=1 accepted=1 online=f0f0 nonzero_transactions=0 transactions=83"
+      }
+    ],
+    "adapter_status": "PASS",
+    "adapter_cases": [
+      {
+        "name": "matrix_8",
+        "status": "PASS",
+        "checks": 171
+      },
+      {
+        "name": "matrix_32",
+        "status": "PASS",
+        "checks": 171
+      },
+      {
+        "name": "matrix_64",
+        "status": "PASS",
+        "checks": 171
+      },
+      {
+        "name": "matrix_128",
+        "status": "PASS",
+        "checks": 171
+      },
+      {
+        "name": "partial_unknown_retained",
+        "status": "PASS",
+        "checks": 171
+      },
+      {
+        "name": "unknown_nonzero_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "offline_cell_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "offline_output_mask_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "above_declared_cap_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "level5_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "CRC_corruption_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "all_unknown_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "VALID_with_unknown_rejected",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "explicit_zero_OFF_atomic",
+        "status": "PASS",
+        "checks": 237
+      },
+      {
+        "name": "health_loss_inhibits",
+        "status": "PASS",
+        "checks": 172
+      },
+      {
+        "name": "permit_loss_inhibits",
+        "status": "PASS",
+        "checks": 172
+      },
+      {
+        "name": "lease_expiry_inhibits",
+        "status": "PASS",
+        "checks": 172
+      },
+      {
+        "name": "duplicate_sequence_rejected",
+        "status": "PASS",
+        "checks": 172
+      },
+      {
+        "name": "permit_before_commit_no_grant",
+        "status": "PASS",
+        "checks": 2
+      },
+      {
+        "name": "legacy_DGD1_mode0_unchanged",
+        "status": "PASS",
+        "checks": 171
+      },
+      {
+        "name": "matrix_packet_rejected_by_mode0",
+        "status": "PASS",
+        "checks": 3
+      },
+      {
+        "name": "legacy_packet_rejected_by_matrix_mode",
+        "status": "PASS",
+        "checks": 3
+      }
+    ],
+    "scope_limit": "RTL/model byte and state-machine observations are not physical SCL/SDA/PWM or motor measurements.",
+    "source_refs": [
+      "pipeline_simulation",
+      "adapter_simulation"
+    ]
+  },
+  "retained_limitations": {
+    "SDK_cleanup": "UNKNOWN",
+    "stop_returned": true,
+    "application_cleanup_completed": true,
+    "resource_recovery": "UNKNOWN",
+    "formal_clock_mapping": "BLOCKED",
+    "formal_capture_freshness": "BLOCKED",
+    "production_FRESH": false,
+    "production_output_permitted": false,
+    "production_ready": false,
+    "mode": "Externally supervised DGM2 bench, not formal production FCH1/KPF1 acceptance.",
+    "frame_update_behavior": "Frozen M2 BEGIN clears control_valid and asserts force_off before commit. Short per-frame OFF interruptions remain; uninterrupted PWM is not claimed.",
+    "safe_window_behavior": "Control renewals revoke/drain/disarm and re-arm with a real control gap. Continuous acquisition does not mean gap-free actuation.",
+    "source_recovery_behavior": "Unobservable geometry causes rejection/hold; recovery retires the old control session and discards the recovery-trigger frame.",
+    "full_off_limit": "PCA register FULL_OFF readback does not by itself prove an independent power cutoff or measured physical PWM stop.",
+    "source_refs": [
+      "demo60_completion",
+      "demo60_native",
+      "frozen_m2_adapter"
+    ]
+  },
+  "privacy": "No host absolute paths, login names, device serials, raw depth frames or long logs are included. Source hashes refer to unmodified private originals.",
+  "sources": [
+    {
+      "id": "demo60_freeze",
+      "basename": "FROZEN_RESULT.json",
+      "record_group": "TEAM_DEMO_LIVE60_CAMERA_TURNED_20261106T143045875382Z",
+      "sha256": "6f148d142d333bb009ca8909a6d7cadc055c31f19cd3c026d1ffcb26db6f781a",
+      "json_pointer_fields": [
+        "/captured",
+        "/processed",
+        "/verified_PL_transactions",
+        "/unknown_rejected",
+        "/IIC_errors",
+        "/IIC_timeouts",
+        "/FULL_OFF",
+        "/SDK_cleanup",
+        "/capture_age_proof",
+        "/M2_BIN_SHA256",
+        "/f30_runtime_sha256"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "demo60_completion",
+      "basename": "COMPLETION.json",
+      "record_group": "TEAM_DEMO_LIVE60_CAMERA_TURNED_20261106T143045875382Z",
+      "sha256": "6fb63ef62c9466e2b17ff79f53953aac81f7075ca3ab09cafbed3403b9d29e64",
+      "json_pointer_fields": [
+        "/transaction_records",
+        "/worker_result/FRESH",
+        "/worker_result/capture_time_verified",
+        "/worker_result/FULL_OFF_readback/devices",
+        "/worker_result/window_renewals",
+        "/worker_result/source_recoveries",
+        "/worker_result/SDK_warning_counts"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "demo60_operator",
+      "basename": "OPERATOR_OBSERVATION.json",
+      "record_group": "TEAM_DEMO_LIVE60_CAMERA_TURNED_20261106T143045875382Z",
+      "sha256": "8c629743e250f012b8bd5e23b2eed1326cb66355c1bd909d748173c0a8e32093",
+      "json_pointer_fields": [
+        "/actual_vibration",
+        "/physical_all_128_individual_positions",
+        "/automatic_stop"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "demo60_native",
+      "basename": "session_result.json",
+      "record_group": "native",
+      "sha256": "1f12b5f4a97a22aeafe465314eed13c9c14995b6799d5caba22cb15698961de7",
+      "json_pointer_fields": [
+        "/captured_frames",
+        "/processed_frames",
+        "/latest_slot_replacements",
+        "/clock_mapping",
+        "/live_freshness",
+        "/resource_recovery",
+        "/stop_returned",
+        "/cleanup_completed"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "live600_summary",
+      "basename": "SUMMARY.json",
+      "record_group": "RECOVERY_REAL_LIVE_600_20261106T121718849375Z",
+      "sha256": "01a6944afc396537068e205ea08da47b30ef51ddbe96af6ad82a559dfd29cad4",
+      "json_pointer_fields": [
+        "/transactions",
+        "/total_worker_s",
+        "/native",
+        "/source_recovery_count",
+        "/window_renewal_count",
+        "/FULL_OFF",
+        "/SDK_cleanup",
+        "/SDK_warnings",
+        "/new_kernel_errors"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "live600_stage",
+      "basename": "STAGE_RESULT.json",
+      "record_group": "RECOVERY_REAL_LIVE_600_20261106T121718849375Z",
+      "sha256": "6a9e70930daf842e0349b5e0736175fd1a601fdfc2634b341c451a56a45b1812",
+      "json_pointer_fields": [
+        "/status",
+        "/wire_protocol",
+        "/matrix_stage_cells",
+        "/output_enabled_block_mask",
+        "/level_cap",
+        "/bindings/loaded_D1_bin_sha256",
+        "/runtime_worker_summary/FULL_OFF_readback/devices"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "staged_manual",
+      "basename": "POWERED_STAGES_ACTUAL_READBACK_EVIDENCE.json",
+      "record_group": "DGM2_POWERED_STAGES_20261106T100636852850Z",
+      "sha256": "e11e3df3246cdf97b4938068cad101b0b9155feb27c0a1445fafa102436f22a4",
+      "json_pointer_fields": [
+        "/all_stages_payload_passed",
+        "/stages/*/stage_cells",
+        "/stages/*/row_count",
+        "/stages/*/actual_nonzero_counts",
+        "/stages/*/scheduler_accepted_rows",
+        "/stages/*/scheduler_not_accepted_row_indices"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "staged_manual_sequence",
+      "basename": "SEQUENCE_RESULT.json",
+      "record_group": "DGM2_POWERED_STAGES_20261106T100636852850Z",
+      "sha256": "25d8f77f0344d472a4c75af829d2214ae36a6e1905fff6b0cbc71e14df2ef9f5",
+      "json_pointer_fields": [
+        "/stages/*/transactions",
+        "/stages/*/actual_vibration",
+        "/stages/*/FULL_OFF"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "pipeline_simulation",
+      "basename": "FULL_PIPELINE_RESULT.json",
+      "record_group": "DGM2_PIPELINE_RTL_20261106T091810071091Z",
+      "sha256": "898eda2f3bc09ad1f36bed6d5196d0a7a2ad790df2c16c802232bd0b1aa7e5f3",
+      "json_pointer_fields": [
+        "/status",
+        "/cases/*/stage_count",
+        "/cases/*/case_id",
+        "/cases/*/checks",
+        "/cases/*/stdout_tail",
+        "/hardware_action_taken"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "adapter_simulation",
+      "basename": "RESULT.json",
+      "record_group": "DGM2_ADAPTER_RTL_20261106T091624356738Z",
+      "sha256": "84cdb6fe7a052d9881c124850f0f5854ec90192e5d93088b63e8ab18530d3622",
+      "json_pointer_fields": [
+        "/status",
+        "/cases/*/name",
+        "/cases/*/checks",
+        "/cases/*/status"
+      ],
+      "availability": "Private original retained locally; this public file is a selected redacted summary, not the original record."
+    },
+    {
+      "id": "frozen_m2_adapter",
+      "basename": "KV260_R6_DGM2_FINAL_RELEASE_INCREMENT_20261106T101852927332Z.zip",
+      "sha256": "7f62d8ffcde3b2ce2f6911d84a2752da678a3db37cd702d3873d9fbbb61b0fd1",
+      "archive_member": "current_source/fpga_c2/rtl/core/perception_axi_runtime_adapter.sv",
+      "member_sha256": "c9768e1ae0302f9a9c131e77780d093894e429b6d3a5d54d1246cef1a6d0fb13",
+      "source_lines": [
+        107,
+        339
+      ],
+      "availability": "Frozen source archive retained locally; archive and member hashes identify original source, not a runtime bitstream extraction."
+    }
+  ]
+}

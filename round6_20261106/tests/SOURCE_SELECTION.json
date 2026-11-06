@@ -1,0 +1,49 @@
+{
+  "schema": "ROUND6_PUBLIC_TEST_SELECTION_V1",
+  "status": "ADAPTED_NOT_EXECUTED_ROOT_WILL_RUN",
+  "hardware_action": false,
+  "original_sources": [
+    {
+      "source": "runtime_control/tests/test_control_paths.py",
+      "sha256": "680790cb5d908d7c558b08013b306a86db3f2fae463dd98bd51bb0e0d78e5a56"
+    },
+    {
+      "source": "runtime_control/tests/test_control_session.py",
+      "sha256": "884bbeb0dca78e1de7217b6cefa8f930b418c94779b431663d53b8646b935cca"
+    },
+    {
+      "source": "runtime_control/tests/test_digital_matrix.py",
+      "sha256": "99842ec630b7b7e54bee74d914b6515840c3ced9d5ad898f84980aa151507835"
+    },
+    {
+      "source": "runtime_night/test_matrix_source_recovery_host.py",
+      "sha256": "b5a6207ce381197371e6f5c1881a9761031e956bfc5b2d015808dea942b3994e"
+    },
+    {
+      "source": "runtime_night/test_window_telemetry_host.py",
+      "sha256": "60ab4929b4f8881c7fbcf995207e60f6e2cc20694aa05171618807742c977130"
+    },
+    {
+      "source": "runtime_night/test_window_renewal_host.py",
+      "sha256": "999fd4952ad481841e378c4f2a12ff1c724d9b8bf65d29a4f3416d46b370aff7"
+    },
+    {
+      "source": "tests/pl_c2/run_dgm2_tests.py",
+      "sha256": "8be3ff9e9ebb4c0a9d356c4d9438fc3151eceaf267534d7658c69087bdd91c8b"
+    },
+    {
+      "source": "tests/pl_c2/tb_dgm2_adapter.sv",
+      "sha256": "766318c716792c9a465eed22739b934cc6b6f20b65cbac09ea75263443d2bef3"
+    }
+  ],
+  "adaptations": [
+    "Portable root and tool paths; outputs under ignored tests/results",
+    "Remove NativeABI report-dependent test; protocol/mapping/error gates retained",
+    "Original28 recovery/telemetry/renewal methods retained; real453 compact replay replaced by clearly synthetic453 sequence with the same93-frame gap shape",
+    "Frozen full_off_readback AST-only reference extracted; renewal capabilities read published manifest instead of local packaging implementation",
+    "No camera frame/device identifier or long log copied"
+  ],
+  "selected_host_test_methods": 57,
+  "rtl_cases": 22,
+  "baseline_full_off_source_sha256": "516dcd3a465827f85219467dd4e82a3727281dffcaab4b7300d34353a908e6af"
+}

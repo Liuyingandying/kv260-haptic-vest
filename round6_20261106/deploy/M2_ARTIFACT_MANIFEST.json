@@ -1,0 +1,54 @@
+{
+  "app": "kv260-round6-matrixd2-20261106",
+  "firmware": "xilinx/kv260-round6-matrixd2-20261106/kv260_round6_matrixd2.bit.bin",
+  "USR_ACCESS": "0x52364d32",
+  "digital_bringup_mode": true,
+  "target_mask": "0xF0F0",
+  "register_windows": [
+    [
+      2617245696,
+      65536
+    ],
+    [
+      2650800128,
+      65536
+    ],
+    [
+      2667577344,
+      65536
+    ]
+  ],
+  "actual_usr_access_packets": [
+    1379290418
+  ],
+  "bit_sha256": "09be7e00d9ed44ee85d7b8df9bde9313795468faefe498b2e5b9039b195e5cae",
+  "bit_payload_bytes": 7797692,
+  "bit_bin_sha256": "eb18234ff0d11adfb2167470e7a4ec3a213801c7ef89476263925673e4ed2021",
+  "runtime_files": {
+    "kv260-round6-matrixd2-20261106/kv260_round6_matrixd2.bit.bin": {
+      "bytes": 7797692,
+      "sha256": "eb18234ff0d11adfb2167470e7a4ec3a213801c7ef89476263925673e4ed2021"
+    },
+    "kv260-round6-matrixd2-20261106/kv260_round6_matrixd2.dtbo": {
+      "bytes": 1091,
+      "sha256": "60ae5643fb8496d259d7f781914556320bda72d594a114f1c0134fa16e70c28b"
+    },
+    "kv260-round6-matrixd2-20261106/shell.json": {
+      "bytes": 45,
+      "sha256": "ed0f0900b65293ab42e1110640230b6608aea7bce17af81d3c762c4920cddb4f"
+    }
+  },
+  "matrix_protocol": "DGM2_V2_BENCH_ONLY",
+  "matrix_supported_stage_cells": [
+    8,
+    32,
+    64,
+    128
+  ],
+  "matrix_level_cap": 1,
+  "source_version": "M2 / no C3",
+  "capture_clock_mapping": "BLOCKED",
+  "SDK_cleanup": "UNKNOWN",
+  "production_accepted": false,
+  "runtime_archive_sha256": "eb440255e64a4355b622356c8c127f4a97bc76e780dae6413a4490d3bba4fd99"
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "R6_M2_F30_PUBLICATION_VALIDATION_V1",
+  "utc": "2026-11-06T14:48:32.464505+00:00",
+  "base_branch": "feature/unified-board-20261103",
+  "base_SHA": "26bf18593730fb71c84967681e37f429d9ce60a6",
+  "host_tests": {
+    "command": "python -B round6_20261106/tests/run_tests.py",
+    "tests": 57,
+    "failures": 0,
+    "errors": 0,
+    "exit_code": 0,
+    "fixture": "synthetic host"
+  },
+  "RTL_tests": {
+    "command": "python -B round6_20261106/tests/run_tests.py --suite rtl",
+    "cases": 22,
+    "checks": 1983,
+    "failed": [],
+    "exit_code": 0
+  },
+  "sealed_runtime": {
+    "payload_files": 32,
+    "with_manifest": 33,
+    "bytes_and_sha256": "PASS",
+    "prepare_to_new_tree": "PASS"
+  },
+  "native_source_closure": {
+    "files": 24,
+    "verify_only": "PASS",
+    "compiler_run": false
+  },
+  "python_AST": {
+    "status": "PASS",
+    "files_at_check": 50
+  },
+  "deploy_archive": {
+    "members": 3,
+    "BIN_sha256": "eb18234ff0d11adfb2167470e7a4ec3a213801c7ef89476263925673e4ed2021",
+    "exact_BIN_SHA": "PASS"
+  },
+  "Vivado_review_entry": {
+    "Tcl_complete": "PASS",
+    "dependencies": "PASS",
+    "Vivado_GUI_executed_this_publication": false,
+    "cross_machine_full_build": "NOT_VERIFIED"
+  },
+  "physical_demo": {
+    "status": "USER_CONFIRMED_VIBRATION",
+    "PL_verified_transactions": 297,
+    "PCA_FULL_OFF_readback": 8,
+    "physical_256_coordinate_mapping": "NOT_VERIFIED"
+  },
+  "publication_changes": [
+    "New additive R6 source tree",
+    "Root README entry",
+    "Exact-byte Git attributes",
+    "Configurable UART selection in publication-only host console",
+    "Current-boot admission wrapper retaining original checks",
+    "Relative historical provenance metadata",
+    "Portable offline build/review entries"
+  ],
+  "unchanged": [
+    "32 sealed runtime payloads",
+    "M2 synthesizable RTL and XDC",
+    "Original project worktree",
+    "C1/D1/M2 rollback artifacts",
+    "All pre-existing repository source"
+  ],
+  "excluded": [
+    "Raw Y16/camera observations",
+    "Serial raw logs",
+    "Passwords and authentication",
+    "Vendor SDK libraries/sysroot",
+    "Vivado cache/runs/DCP/XSA/rawBIT",
+    "Unbuilt/unloaded C3"
+  ],
+  "historical_XDC_source_comment": "Preserved byte-identical project-only historical path comment; not a runtime dependency.",
+  "SDK_cleanup": "UNKNOWN",
+  "formal_FRESH": "BLOCKED",
+  "hardware_access_this_publication": false
+}
