@@ -1,0 +1,205 @@
+{
+  "schema": "R6_D1_DEPLOY_PACKAGE_V1",
+  "created_utc": "20261106T120504274137Z",
+  "mode": "DIGITAL_BRINGUP_MODE",
+  "FRESH": false,
+  "physical_output_permitted": false,
+  "VPLUS": "DEFAULT_DISCONNECTED;EXPLICIT_SUPERVISED_MODE_REQUIRES_OPERATOR_PROOF",
+  "expected_design_id": 1379290418,
+  "healthy_target_mask": 61680,
+  "supported_durations": [
+    8,
+    60
+  ],
+  "supports_fixed_source_index": true,
+  "supports_digital_window_renewal": true,
+  "digital_window_renewal_interval_s": 30,
+  "hardware_signal_window_s": 50,
+  "raw_sampling_modes": {
+    "8": "FULL_RAW_REQUIRED",
+    "60": "BOUNDED_RAW_SAMPLING"
+  },
+  "parent_deadlines_s": {
+    "8": 63,
+    "60": 115
+  },
+  "duration_s": 8,
+  "raw_samples": 64,
+  "parent_deadline_s": 63,
+  "full_off_readback_budget_s": 35,
+  "files": {
+    "runtime_night/run_d1_live.py": {
+      "bytes": 70300,
+      "sha256": "f30aa975288d770433fd235ea78edd758f1344802efec755f1124f87815ee300"
+    },
+    "runtime_control/__init__.py": {
+      "bytes": 246,
+      "sha256": "9f4d62d7faeca0c19a4deba50b6321a2e168effe55564ffcc7f31681ad8a3adb"
+    },
+    "runtime_control/backend.py": {
+      "bytes": 10194,
+      "sha256": "1dd10d02be28b52fb8dfeee848383a4a9efad995bb131bf7a2fefe4ea2ebe65d"
+    },
+    "runtime_control/protocol.py": {
+      "bytes": 1561,
+      "sha256": "9e14650a2dd410f76fa633e11ae9632a564e250cccb09ad36fb2bf19175b4348"
+    },
+    "runtime_control/producer.py": {
+      "bytes": 7722,
+      "sha256": "73df91200eeb12897955cae36658db7afb06eb66109dba269bb470cf6072517b"
+    },
+    "runtime_control/digital_bringup.py": {
+      "bytes": 14505,
+      "sha256": "a90451f4397a9238ead98e344da732e4bead17698e671f7f4025fe2142f378ca"
+    },
+    "runtime_control/digital_backend.py": {
+      "bytes": 10220,
+      "sha256": "cd78be92f1cb406f392962185e625264228eccee9690b9c6eaee079bb893aa18"
+    },
+    "runtime_control/uio.py": {
+      "bytes": 6939,
+      "sha256": "58725369afc603aa88d38b91375d8c48293e630d2bc0004ff309323cf9d416ee"
+    },
+    "runtime_control/native/control_mmio32.aarch64.so": {
+      "bytes": 67280,
+      "sha256": "186a644cc58ae447eec099245019105bfd52125a536e6d7a34e36831f804aa93"
+    },
+    "runtime_compact/compact_source.py": {
+      "bytes": 4794,
+      "sha256": "ab2b41f35b68288f58ac4efc369ec3388434bbb74642151bd5877f7420727ea7"
+    },
+    "runtime_compact/compact_producer.py": {
+      "bytes": 7870,
+      "sha256": "2f7dcb1ba47b88eae1a6b5f88e3fed0680f57cbd400c9de4d94eba9011345701"
+    },
+    "runtime_compact/compact_codec.py": {
+      "bytes": 3916,
+      "sha256": "f19a328885a99a3867e1d16d51f30bff1d45907026cc125bb2960cdf53119419"
+    },
+    "runtime_compact/native_json_parser.py": {
+      "bytes": 1611,
+      "sha256": "7bcb25abd63e727abf468152a1493aa15604d87e9b996b1905779b25533979c3"
+    },
+    "runtime_compact/value_clone.py": {
+      "bytes": 911,
+      "sha256": "55e1cd0e93302a280d1ed268b339aff0da8e9c6fe7a78f94ab642717d2690f7b"
+    },
+    "runtime_compact/run_compact_observation.py": {
+      "bytes": 32440,
+      "sha256": "b044aab06d13fe2bc1c3d583915f5ea838fdec77d306d76b9ad9181503e14cf5"
+    },
+    "runtime_compact/bridge_r4/__init__.py": {
+      "bytes": 80,
+      "sha256": "5e111b06b685d1fffe6cc5d2e21ed4fd5560bb0387b2801ef6db65645c6effee"
+    },
+    "runtime_compact/bridge_r4/source.py": {
+      "bytes": 11204,
+      "sha256": "420f0a4e278532b2b0f3b125ee07c933b047f8cb977d65db9b81e4db09a53d0a"
+    },
+    "runtime_compact/bridge_r4/contracts.py": {
+      "bytes": 3913,
+      "sha256": "66b2cd8279a5827dad37c2b3b8f639b3a39900c89a5538898a5b3398914fc171"
+    },
+    "runtime_compact/protocol_prepare/__init__.py": {
+      "bytes": 80,
+      "sha256": "ebcb7097acefcbd2cb39cf33848c7f56ac8c2621fbd2cb0525243ee939abc563"
+    },
+    "runtime_compact/protocol_prepare/obs2_codec.py": {
+      "bytes": 7575,
+      "sha256": "762271c9a84471b3dbe0acf6677787de875d933f4f5b0692117d9678334ad5bc"
+    },
+    "runtime_compact/protocol_prepare/obs2_producer.py": {
+      "bytes": 5692,
+      "sha256": "f76034219733b93ea8aa2e5c51166602ebfd528fe32d4bea42a63f2010c68e6f"
+    },
+    "runtime_compact/vendor/CODE_ARCHITECTURE_REVIEW/research/optimization_v2/frozen_v1/source/kv260/linux/runtime/kpf1_codec.py": {
+      "bytes": 10284,
+      "sha256": "1a31e6316550edcafd738ca6ec79b7c08c8bdd2b9397f311e1b3d5e66f96f1f9"
+    },
+    "iic_c1/digital_iic_diag.py": {
+      "bytes": 24355,
+      "sha256": "2cca100d5e9602030cc47943b9d7061e6cf2c5905ed7ae6fc33f53f53d022d68"
+    },
+    "iic_c1/gpio_mmio32.aarch64.so": {
+      "bytes": 67152,
+      "sha256": "356122bb910cfe28f3f423108c5bbc000ef716e18e0c1c0b6ca76bccc7ecb365"
+    },
+    "native/gemini_live_compact.aarch64": {
+      "bytes": 171456,
+      "sha256": "27c22c7271c573683bcd4f352bbd259b0907dbcb4c69f233ac7b8d53b7b6b270"
+    },
+    "runtime_night/supervised_single.py": {
+      "bytes": 18104,
+      "sha256": "1d087884a9eb2da91fc66b504a801a0ab800677b4a52bcb0de31e10850f95a6a"
+    },
+    "runtime_night/manual_single.py": {
+      "bytes": 13794,
+      "sha256": "f27ddaf222680e6050851d4047aa166650b3e51b1e5868d22b348b5e6601f002"
+    },
+    "runtime_control/digital_matrix.py": {
+      "bytes": 11921,
+      "sha256": "07307c7b0069636162de09415d23c644e3d75acec4b3d1275bf93075b4844baf"
+    },
+    "runtime_control/digital_matrix_backend.py": {
+      "bytes": 3128,
+      "sha256": "89fd4e3d7d35f1cb097e6cc4f535660b2030eccd21ad05ad562652ef38b3233a"
+    },
+    "runtime_night/matrix_bench.py": {
+      "bytes": 12089,
+      "sha256": "bda080bfaa954e6640786251c6d0d3698fbf3f97e6af99d714b47ad8209bef21"
+    },
+    "runtime_night/extended_session.py": {
+      "bytes": 6703,
+      "sha256": "86b491d8963f3c6b338e3494618e01679247deafb5a0448a1f215f8c7527d598"
+    },
+    "native/gemini_live_compact_continuous.aarch64": {
+      "bytes": 237792,
+      "sha256": "6eb4aacce1a488b7aee6ac383030322ee2fdab2f42cb6eb828fe9c750c949cd9"
+    }
+  },
+  "external_SDK_not_redistributed": true,
+  "supports_supervised_single_motor": true,
+  "supervised_source_index": 131,
+  "supervised_level_cap": 1,
+  "supervised_first_trial_s": 8,
+  "supervised_60s_requires_prior_vibration": true,
+  "supervised_operator_proof_versions": [
+    1,
+    2
+  ],
+  "inherited_manifest_sha256": "5f2da1f2aad37fa8288c72ce22e6316317b88bf24ea796b90ee79b3660e971bd",
+  "supervised_delta_files": [
+    "runtime_night/run_d1_live.py",
+    "runtime_night/supervised_single.py",
+    "runtime_night/manual_single.py",
+    "runtime_control/digital_backend.py",
+    "runtime_control/uio.py",
+    "runtime_control/digital_matrix.py",
+    "runtime_control/digital_matrix_backend.py",
+    "runtime_night/matrix_bench.py",
+    "runtime_night/extended_session.py",
+    "native/gemini_live_compact_continuous.aarch64"
+  ],
+  "supports_manual_single_motor": true,
+  "manual_SDK_started": false,
+  "manual_source_kind": "MANUAL_OPERATOR_TEST",
+  "supports_digital_matrix_mode": true,
+  "matrix_design_id": 1379290418,
+  "matrix_allowed_target_mask": 61680,
+  "matrix_supported_stage_cells": [
+    8,
+    32,
+    64,
+    128
+  ],
+  "matrix_level_cap": 1,
+  "supports_supervised_matrix": true,
+  "supports_manual_matrix": true,
+  "wire_protocol": "DGM2",
+  "supports_extended_matrix_session": true,
+  "extended_matrix_session_s": 600,
+  "continuous_native_sha256": "6eb4aacce1a488b7aee6ac383030322ee2fdab2f42cb6eb828fe9c750c949cd9",
+  "continuous_native_relative_path": "native/gemini_live_compact_continuous.aarch64",
+  "production_permission": false,
+  "physical_vibration": "NOT_VERIFIED"
+}

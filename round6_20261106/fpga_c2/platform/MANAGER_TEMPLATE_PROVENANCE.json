@@ -1,0 +1,11 @@
+{
+  "template": "historical_reference/manager_overlay_r5b2_template.dtbo",
+  "source": "historical_reference/kv260_round5_busguard.dtbo",
+  "sha256": "fc7aa3a6b94b65dda5788dc2e26ab91a23bef836f96e8f3bab608504f28a1e76",
+  "expected_windows": [
+    "0x9C000000",
+    "0x9E000000",
+    "0x9F000000"
+  ],
+  "scope": "Historical already accepted manager/UIO layout; R6 firmware property changes only. Not R6 board validation."
+}

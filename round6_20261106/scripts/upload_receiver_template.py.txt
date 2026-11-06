@@ -1,0 +1,77 @@
+from pathlib import Path,PurePosixPath
+import os,sys,platform,hashlib,json,select,struct,termios,time,tty,tarfile,io
+
+assert platform.machine()=='aarch64' and os.geteuid() in (0,1000)
+if os.geteuid()==0:
+ os.setgroups([]);os.setgid(1000);os.setuid(1000)
+assert os.geteuid()==1000 and not os.path.lexists(TARGET)
+def receive_ram(spec):
+    fd=os.open('/dev/tty',os.O_RDWR|os.O_NOCTTY)
+    settings=termios.tcgetattr(fd)
+    def emit(s):os.write(fd,(s+'\n').encode('ascii'))
+    def exact(n):
+        out=bytearray();deadline=time.monotonic()+20
+        while len(out)<n:
+            if not select.select([fd],[],[],max(0,deadline-time.monotonic()))[0]:
+                raise TimeoutError('RAM packet input timeout')
+            part=os.read(fd,n-len(out))
+            if not part:raise EOFError('RAM tty input ended')
+            out.extend(part)
+        return bytes(out)
+    data=bytearray()
+    try:
+        tty.setraw(fd,termios.TCSANOW)
+        emit('\nRAM_READY_%s:%d:%s'%(spec['nonce'],spec['size'],spec['sha256']))
+        seq=0
+        while len(data)<spec['size']:
+            header=exact(44)
+            magic,index,size=struct.unpack('<4sII',header[:12])
+            if magic!=b'KVPK' or index!=seq or not 1<=size<=32768 or len(data)+size>spec['size']:
+                raise RuntimeError('RAM invalid packet header')
+            packet=exact(size)
+            if hashlib.sha256(packet).digest()!=header[12:]:
+                raise RuntimeError('RAM packet SHA256 mismatch')
+            data.extend(packet)
+            emit('RAM_ACK_%s:%d:%d'%(spec['nonce'],seq,len(data)))
+            seq+=1
+        digest=hashlib.sha256(data).hexdigest()
+        if digest!=spec['sha256']:raise RuntimeError('RAM whole payload SHA256 mismatch')
+        emit('RAM_RECEIVED_%s:%d:%s'%(spec['nonce'],len(data),digest))
+        return bytes(data)
+    except Exception:
+        # Discard only this uploader's remaining bytes before restoring the shell tty.
+        end=time.monotonic()+8;quiet=time.monotonic()+3
+        while time.monotonic()<end:
+            if select.select([fd],[],[],max(0,min(end,quiet)-time.monotonic()))[0]:
+                os.read(fd,65536);quiet=time.monotonic()+3
+            else:break
+        termios.tcflush(fd,termios.TCIFLUSH)
+        raise
+    finally:
+        termios.tcsetattr(fd,termios.TCSANOW,settings)
+        os.close(fd)
+
+received=receive_ram(SPEC)
+with tarfile.open(fileobj=io.BytesIO(received),mode='r:gz') as archive:
+ all_members=archive.getmembers()
+ assert 1<=len(all_members)<=512
+ for item in all_members:
+  p=PurePosixPath(item.name)
+  assert (item.isfile() or item.isdir()) and not p.is_absolute() and '..' not in p.parts and '\\' not in item.name
+ members=[m for m in all_members if m.isfile()]
+ assert len(members)==len(EXPECTED) and {m.name for m in members}==set(EXPECTED)
+ contents={}
+ for member in members:
+  p=PurePosixPath(member.name)
+  assert member.isfile() and not p.is_absolute() and '..' not in p.parts and '\\' not in member.name
+  content=archive.extractfile(member).read();e=EXPECTED[member.name]
+  assert len(content)==e['bytes'] and hashlib.sha256(content).hexdigest()==e['sha256']
+  contents[member.name]=content
+TARGET.mkdir(mode=0o700)
+for name,content in contents.items():
+ path=TARGET/name;path.parent.mkdir(parents=True,exist_ok=True,mode=0o700)
+ with path.open('xb') as f:f.write(content)
+ os.chmod(path,0o700 if name.endswith('.aarch64') else 0o600)
+result={'status':'PASS','target':str(TARGET),'files':EXPECTED,'archive_sha256':SPEC['sha256'],'uid':os.geteuid(),'SDK_started':False,'MMIO_access':False,'PL_changed':False}
+with (TARGET/'RECEIPT.json').open('x') as f:json.dump(result,f,indent=2)
+print('FAST_RESULT '+json.dumps(result),flush=True)

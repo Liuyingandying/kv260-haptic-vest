@@ -1,0 +1,439 @@
+{
+  "schema": "R6_M2_F30_SOURCE_PROVENANCE_V1",
+  "active": "M2+f30",
+  "not_included": "unloaded_C3_candidate",
+  "files": [
+    {
+      "path": "fpga_c2/constraints/kv260_unified_cdc.xdc",
+      "sha256": "de410dbeecf5e534265389193bee48ae50c430954a901b4c78d69a28d9830ad4",
+      "source": "frozen_D1:original_D1_source/constraints/kv260_unified_cdc.xdc"
+    },
+    {
+      "path": "fpga_c2/constraints/kv260_unified_pmod.xdc",
+      "sha256": "410e8e1feb33a741deff5aeaeb5a2c550cf198a746c686d3c6796e37d185fc08",
+      "source": "frozen_D1:original_D1_source/constraints/kv260_unified_pmod.xdc"
+    },
+    {
+      "path": "fpga_c2/platform/manager_overlay_r5b2_template.dtbo",
+      "sha256": "fc7aa3a6b94b65dda5788dc2e26ab91a23bef836f96e8f3bab608504f28a1e76",
+      "source": "frozen_D1:original_D1_source/platform/manager_overlay_r5b2_template.dtbo"
+    },
+    {
+      "path": "fpga_c2/platform/MANAGER_TEMPLATE_PROVENANCE.json",
+      "sha256": "b2bbd53754968df440cb00bdb1db6bbec6930140df9517534f36adf9334d973a",
+      "source": "frozen_D1:original_D1_source/platform/MANAGER_TEMPLATE_PROVENANCE.json",
+      "frozen_source_sha256": "5dd14456db80e6242488ed872148b22bf6e85808c33d8495bde74dfe728997b5",
+      "publication_adaptation": "Explicit UART environment selection; or relative metadata-only historical reference paths. Sealed runtime/RTL unchanged."
+    },
+    {
+      "path": "fpga_c2/platform/PS_BASELINE_MANIFEST.json",
+      "sha256": "7714437a99e32b899190d2fd9c78a3e7635bb24896ff637c28a372795bed733e",
+      "source": "frozen_D1:original_D1_source/platform/PS_BASELINE_MANIFEST.json",
+      "frozen_source_sha256": "c73ade20cd539a3eddd62ddd467b4c9f24653c69cae84d0ef6404ee4efe88d4a",
+      "publication_adaptation": "Explicit UART environment selection; or relative metadata-only historical reference paths. Sealed runtime/RTL unchanged."
+    },
+    {
+      "path": "fpga_c2/platform/ps_baseline_parameters.tcl",
+      "sha256": "842bb28b7730b70c9e35b79cc4382f63784806de2b872ceb6a9f73c5e20d6767",
+      "source": "frozen_D1:original_D1_source/platform/ps_baseline_parameters.tcl"
+    },
+    {
+      "path": "fpga_c2/platform/reference_k26c_1_4_part0_pins.xml",
+      "sha256": "32b1e09ef4af127b16aa3071c5b033df9767d1d1a2d5762da5b38d9ad2564971",
+      "source": "frozen_D1:original_D1_source/platform/reference_k26c_1_4_part0_pins.xml"
+    },
+    {
+      "path": "fpga_c2/platform/reference_kv260_ps_bd.bd",
+      "sha256": "929c9cf78473fbfe4e43f36df3d44236c96994ed68bdd0dd1beab7d0d13e5722",
+      "source": "frozen_D1:original_D1_source/platform/reference_kv260_ps_bd.bd"
+    },
+    {
+      "path": "fpga_c2/platform/reference_official_kv260_bist_pin.xdc",
+      "sha256": "8a0bffecd3db482571b9cac3efb8af512dd2625ee8ca0959b1980dac87647d12",
+      "source": "frozen_D1:original_D1_source/platform/reference_official_kv260_bist_pin.xdc"
+    },
+    {
+      "path": "fpga_c2/platform/reference_ps.xci",
+      "sha256": "2b0f8b9f3c3c4a127d22207c5736693fbd1e01453a006dc78f470189a5b02a6b",
+      "source": "frozen_D1:original_D1_source/platform/reference_ps.xci"
+    },
+    {
+      "path": "fpga_c2/rtl/core/axi_lite_observation_router.sv",
+      "sha256": "08d7003b2dec6c38c961813c2fd8cc136833e1bb68bb47f20f4f8af241146961",
+      "source": "frozen_D1:original_D1_source/rtl/core/axi_lite_observation_router.sv"
+    },
+    {
+      "path": "fpga_c2/rtl/core/axi_status_regs.v",
+      "sha256": "996e32c7f10f70c32b006747f97a97058c629225f7d0f627f042517d51161668",
+      "source": "frozen_D1:original_D1_source/rtl/core/axi_status_regs.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/block_refresh_buffer.v",
+      "sha256": "ff873640f523c1be3170c2f1da96f61dda61222f488bdb564fdf2cc4787427ec",
+      "source": "frozen_D1:original_D1_source/rtl/core/block_refresh_buffer.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/dirty_detector.v",
+      "sha256": "525c1401db9afba8ee1605e2f6801282208b8a4b328d298280f62fa0931adbe8",
+      "source": "frozen_D1:original_D1_source/rtl/core/dirty_detector.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/duty_lut_rom.v",
+      "sha256": "96ff1cdce67dbcfc21e5c12782bc608dc135f29d3b6ab89e1f4c0403734f4122",
+      "source": "frozen_D1:original_D1_source/rtl/core/duty_lut_rom.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/failsafe_timer.v",
+      "sha256": "e9f731463c98578b7038b6584256c5a399771ae14bff68d5ff2af70bbb45d90f",
+      "source": "frozen_D1:original_D1_source/rtl/core/failsafe_timer.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/fault_recovery_ctrl.v",
+      "sha256": "415d00600a7237774b63f1088b201ba2ecf7381c16cbabbed1eb7950750dda5d",
+      "source": "frozen_D1:original_D1_source/rtl/core/fault_recovery_ctrl.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/i2c_fault_monitor.v",
+      "sha256": "7ee81bec7fac4c9e9ba83f4c960ae1a1911ad2b49ad0e3a5258592f83b2ba80c",
+      "source": "frozen_D1:original_D1_source/rtl/core/i2c_fault_monitor.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/i2c_master_100k_candidate.v",
+      "sha256": "88368a885e4559d3feff96777dbd1aaa8c4a916ead74825c1132452a3b9f3807",
+      "source": "frozen_D1:original_D1_source/rtl/core/i2c_master_100k_candidate.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/i2c_pad_lifecycle_guard.sv",
+      "sha256": "b10ce54ff626154d1baa989bf71cc4f14efe85ec90089e095e735c69d625e0ff",
+      "source": "frozen_D1:original_D1_source/rtl/core/i2c_pad_lifecycle_guard.sv"
+    },
+    {
+      "path": "fpga_c2/rtl/core/init_failure_observer.sv",
+      "sha256": "e918fe457d57f874d60c1b773257478cfaf12a1b521771dda44084324d9577fb",
+      "source": "frozen_D1:original_D1_source/rtl/core/init_failure_observer.sv"
+    },
+    {
+      "path": "fpga_c2/rtl/core/kv260_haptic_pipeline.v",
+      "sha256": "f79fd7a591ec15726a9563d6a0a34ccf1ea75326f889b1418b3f93690e87496d",
+      "source": "frozen_D1:original_D1_source/rtl/core/kv260_haptic_pipeline.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/matrix_buffer.v",
+      "sha256": "7f87742163d57a571c69b545f6806e07e7bbfb07f12a4eb3dbc39d0a1e5b4602",
+      "source": "frozen_D1:original_D1_source/rtl/core/matrix_buffer.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/matrix_buffer_axi.v",
+      "sha256": "ff2f9b748e3c6d37e4708e1ddbeded91fa148ece11b11f360e5f21fc592e7f5a",
+      "source": "frozen_D1:original_D1_source/rtl/core/matrix_buffer_axi.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/matrix_map_rom.v",
+      "sha256": "5d9ed61f2c48dcc3cdc554396d0f786daef988af1599b21b4569a0d96cc2116b",
+      "source": "frozen_D1:original_D1_source/rtl/core/matrix_map_rom.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/pca9685_burst_builder.v",
+      "sha256": "3fd532529719775a069747cbb69301b9f6191dfe18b1066cbf1c604f7eea850a",
+      "source": "frozen_D1:original_D1_source/rtl/core/pca9685_burst_builder.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/pca_init_sequencer.v",
+      "sha256": "b12066231cdd9aa372f2c3304a5926d88c6a5fff7ef15ec2cd608837ae605c2a",
+      "source": "frozen_D1:original_D1_source/rtl/core/pca_init_sequencer.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/perception_axi_runtime_adapter.sv",
+      "sha256": "c9768e1ae0302f9a9c131e77780d093894e429b6d3a5d54d1246cef1a6d0fb13",
+      "source": "frozen_D1:original_D1_source/rtl/core/perception_axi_runtime_adapter.sv",
+      "frozen_source_sha256": "3dbbd78fb5c7c1f8f4971739834e9798633ebf8b79b02e8927217dc6d454d903",
+      "publication_adaptation": "Explicit UART environment selection; or relative metadata-only historical reference paths. Sealed runtime/RTL unchanged."
+    },
+    {
+      "path": "fpga_c2/rtl/core/perception_observation_axi.sv",
+      "sha256": "5e2e3cd6b84ffa2bab0b3cb561f491536625c5829a6272a01a2287f0d330210e",
+      "source": "frozen_D1:original_D1_source/rtl/core/perception_observation_axi.sv"
+    },
+    {
+      "path": "fpga_c2/rtl/core/scheduler_fsm.v",
+      "sha256": "5278da36835ea78573d28c4953a58cb5aeaba59466dffdc6e46ef2366b6a0ba0",
+      "source": "frozen_D1:original_D1_source/rtl/core/scheduler_fsm.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/tactile_v12_ctrl.v",
+      "sha256": "d12212aa568e3f10ff97fb97ae70cbc7f0d63ccde8ecec6e91cf82be0350fea8",
+      "source": "frozen_D1:original_D1_source/rtl/core/tactile_v12_ctrl.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/tca9548_inject.v",
+      "sha256": "6d51f4a3c058e488ba5b36a485dbca5c28f98695b8d7b6c1135192557410fb78",
+      "source": "frozen_D1:original_D1_source/rtl/core/tca9548_inject.v"
+    },
+    {
+      "path": "fpga_c2/rtl/core/unified_perception_haptic_runtime.sv",
+      "sha256": "1da0f4d3870bb5a4e32c566160dd0e2ac005db21f4bb55c3bb5103259a320a64",
+      "source": "frozen_D1:original_D1_source/rtl/core/unified_perception_haptic_runtime.sv",
+      "frozen_source_sha256": "f0179fcbc0af7951328b6aa168b65b9f8c06301c8a46b534f4f3255cf08e97c4",
+      "publication_adaptation": "Explicit UART environment selection; or relative metadata-only historical reference paths. Sealed runtime/RTL unchanged."
+    },
+    {
+      "path": "fpga_c2/rtl/kv260_unified_board_top.sv",
+      "sha256": "6269d3ebde05079c38db7805a57b2747a7b7befe9a6943063daf6ef05c36ae89",
+      "source": "frozen_D1:original_D1_source/rtl/kv260_unified_board_top.sv",
+      "frozen_source_sha256": "6766b91ab573de7ebad6752743156cdc44240187381624e43a73c975899e6410",
+      "publication_adaptation": "Explicit UART environment selection; or relative metadata-only historical reference paths. Sealed runtime/RTL unchanged."
+    },
+    {
+      "path": "fpga_c2/rtl/signal_window_monitor.sv",
+      "sha256": "ac8f4229c6d9efa0f063aa1ecb4c0c0046c3cc25cdc776e86e2a4e1c4057c00e",
+      "source": "frozen_D1:original_D1_source/rtl/signal_window_monitor.sv"
+    },
+    {
+      "path": "fpga_c2/scripts/check_r6_routed.tcl",
+      "sha256": "6c40361182424e7bb94f9ac561f346563c9aec36daa1abdfc6e4847a7af9f959",
+      "source": "frozen_D1:original_D1_source/scripts/check_r6_routed.tcl"
+    },
+    {
+      "path": "fpga_c2/scripts/create_board_bd.tcl",
+      "sha256": "c977b1b243c82296aa149da9b01ba9407c2c57b1f6508a209faf76ef35e5eeb8",
+      "source": "frozen_D1:original_D1_source/scripts/create_board_bd.tcl"
+    },
+    {
+      "path": "fpga_c2/scripts/source_path_guard.tcl",
+      "sha256": "0fac14264da5b30e82fbf55eeefb0ec2e86f5c4caddb4e73ecd2261d85b9d693",
+      "source": "frozen_D1:original_D1_source/scripts/source_path_guard.tcl"
+    },
+    {
+      "path": "fpga_c2/scripts/tool_paths.py",
+      "sha256": "5ab2c9f30d7282d7bcae3fb769ed57bbab5e174b28c06089e4a4aabf4ae97753",
+      "source": "frozen_D1:original_D1_source/scripts/tool_paths.py"
+    },
+    {
+      "path": "fpga_c2/rtl/core/perception_axi_runtime_adapter.sv",
+      "sha256": "c9768e1ae0302f9a9c131e77780d093894e429b6d3a5d54d1246cef1a6d0fb13",
+      "source": "frozen_M2:current_source/fpga_c2/rtl/core/perception_axi_runtime_adapter.sv"
+    },
+    {
+      "path": "fpga_c2/rtl/core/unified_perception_haptic_runtime.sv",
+      "sha256": "1da0f4d3870bb5a4e32c566160dd0e2ac005db21f4bb55c3bb5103259a320a64",
+      "source": "frozen_M2:current_source/fpga_c2/rtl/core/unified_perception_haptic_runtime.sv"
+    },
+    {
+      "path": "fpga_c2/rtl/kv260_unified_board_top.sv",
+      "sha256": "6269d3ebde05079c38db7805a57b2747a7b7befe9a6943063daf6ef05c36ae89",
+      "source": "frozen_M2:current_source/fpga_c2/rtl/kv260_unified_board_top.sv"
+    },
+    {
+      "path": "fpga_c2/scripts/board_pre_opt.tcl",
+      "sha256": "ab08e7d8444628bcb5920424833516f4b7efd16d9e1641507ba4e83c7fd0ccea",
+      "source": "frozen_M2:build_history/board_pre_opt_dgm2.tcl"
+    },
+    {
+      "path": "runtime_night/run_d1_live.py",
+      "sha256": "f30aa975288d770433fd235ea78edd758f1344802efec755f1124f87815ee300",
+      "source": "frozen_f30_deploy_tree:runtime_night/run_d1_live.py"
+    },
+    {
+      "path": "runtime_control/__init__.py",
+      "sha256": "9f4d62d7faeca0c19a4deba50b6321a2e168effe55564ffcc7f31681ad8a3adb",
+      "source": "frozen_f30_deploy_tree:runtime_control/__init__.py"
+    },
+    {
+      "path": "runtime_control/backend.py",
+      "sha256": "1dd10d02be28b52fb8dfeee848383a4a9efad995bb131bf7a2fefe4ea2ebe65d",
+      "source": "frozen_f30_deploy_tree:runtime_control/backend.py"
+    },
+    {
+      "path": "runtime_control/protocol.py",
+      "sha256": "9e14650a2dd410f76fa633e11ae9632a564e250cccb09ad36fb2bf19175b4348",
+      "source": "frozen_f30_deploy_tree:runtime_control/protocol.py"
+    },
+    {
+      "path": "runtime_control/producer.py",
+      "sha256": "73df91200eeb12897955cae36658db7afb06eb66109dba269bb470cf6072517b",
+      "source": "frozen_f30_deploy_tree:runtime_control/producer.py"
+    },
+    {
+      "path": "runtime_control/digital_bringup.py",
+      "sha256": "a90451f4397a9238ead98e344da732e4bead17698e671f7f4025fe2142f378ca",
+      "source": "frozen_f30_deploy_tree:runtime_control/digital_bringup.py"
+    },
+    {
+      "path": "runtime_control/digital_backend.py",
+      "sha256": "cd78be92f1cb406f392962185e625264228eccee9690b9c6eaee079bb893aa18",
+      "source": "frozen_f30_deploy_tree:runtime_control/digital_backend.py"
+    },
+    {
+      "path": "runtime_control/uio.py",
+      "sha256": "58725369afc603aa88d38b91375d8c48293e630d2bc0004ff309323cf9d416ee",
+      "source": "frozen_f30_deploy_tree:runtime_control/uio.py"
+    },
+    {
+      "path": "runtime_control/native/control_mmio32.aarch64.so",
+      "sha256": "186a644cc58ae447eec099245019105bfd52125a536e6d7a34e36831f804aa93",
+      "source": "frozen_f30_deploy_tree:runtime_control/native/control_mmio32.aarch64.so"
+    },
+    {
+      "path": "runtime_compact/compact_source.py",
+      "sha256": "ab2b41f35b68288f58ac4efc369ec3388434bbb74642151bd5877f7420727ea7",
+      "source": "frozen_f30_deploy_tree:runtime_compact/compact_source.py"
+    },
+    {
+      "path": "runtime_compact/compact_producer.py",
+      "sha256": "2f7dcb1ba47b88eae1a6b5f88e3fed0680f57cbd400c9de4d94eba9011345701",
+      "source": "frozen_f30_deploy_tree:runtime_compact/compact_producer.py"
+    },
+    {
+      "path": "runtime_compact/compact_codec.py",
+      "sha256": "f19a328885a99a3867e1d16d51f30bff1d45907026cc125bb2960cdf53119419",
+      "source": "frozen_f30_deploy_tree:runtime_compact/compact_codec.py"
+    },
+    {
+      "path": "runtime_compact/native_json_parser.py",
+      "sha256": "7bcb25abd63e727abf468152a1493aa15604d87e9b996b1905779b25533979c3",
+      "source": "frozen_f30_deploy_tree:runtime_compact/native_json_parser.py"
+    },
+    {
+      "path": "runtime_compact/value_clone.py",
+      "sha256": "55e1cd0e93302a280d1ed268b339aff0da8e9c6fe7a78f94ab642717d2690f7b",
+      "source": "frozen_f30_deploy_tree:runtime_compact/value_clone.py"
+    },
+    {
+      "path": "runtime_compact/run_compact_observation.py",
+      "sha256": "b044aab06d13fe2bc1c3d583915f5ea838fdec77d306d76b9ad9181503e14cf5",
+      "source": "frozen_f30_deploy_tree:runtime_compact/run_compact_observation.py"
+    },
+    {
+      "path": "runtime_compact/bridge_r4/__init__.py",
+      "sha256": "5e111b06b685d1fffe6cc5d2e21ed4fd5560bb0387b2801ef6db65645c6effee",
+      "source": "frozen_f30_deploy_tree:runtime_compact/bridge_r4/__init__.py"
+    },
+    {
+      "path": "runtime_compact/bridge_r4/source.py",
+      "sha256": "420f0a4e278532b2b0f3b125ee07c933b047f8cb977d65db9b81e4db09a53d0a",
+      "source": "frozen_f30_deploy_tree:runtime_compact/bridge_r4/source.py"
+    },
+    {
+      "path": "runtime_compact/bridge_r4/contracts.py",
+      "sha256": "66b2cd8279a5827dad37c2b3b8f639b3a39900c89a5538898a5b3398914fc171",
+      "source": "frozen_f30_deploy_tree:runtime_compact/bridge_r4/contracts.py"
+    },
+    {
+      "path": "runtime_compact/protocol_prepare/__init__.py",
+      "sha256": "ebcb7097acefcbd2cb39cf33848c7f56ac8c2621fbd2cb0525243ee939abc563",
+      "source": "frozen_f30_deploy_tree:runtime_compact/protocol_prepare/__init__.py"
+    },
+    {
+      "path": "runtime_compact/protocol_prepare/obs2_codec.py",
+      "sha256": "762271c9a84471b3dbe0acf6677787de875d933f4f5b0692117d9678334ad5bc",
+      "source": "frozen_f30_deploy_tree:runtime_compact/protocol_prepare/obs2_codec.py"
+    },
+    {
+      "path": "runtime_compact/protocol_prepare/obs2_producer.py",
+      "sha256": "f76034219733b93ea8aa2e5c51166602ebfd528fe32d4bea42a63f2010c68e6f",
+      "source": "frozen_f30_deploy_tree:runtime_compact/protocol_prepare/obs2_producer.py"
+    },
+    {
+      "path": "runtime_compact/vendor/CODE_ARCHITECTURE_REVIEW/research/optimization_v2/frozen_v1/source/kv260/linux/runtime/kpf1_codec.py",
+      "sha256": "1a31e6316550edcafd738ca6ec79b7c08c8bdd2b9397f311e1b3d5e66f96f1f9",
+      "source": "frozen_f30_deploy_tree:runtime_compact/vendor/CODE_ARCHITECTURE_REVIEW/research/optimization_v2/frozen_v1/source/kv260/linux/runtime/kpf1_codec.py"
+    },
+    {
+      "path": "iic_c1/digital_iic_diag.py",
+      "sha256": "2cca100d5e9602030cc47943b9d7061e6cf2c5905ed7ae6fc33f53f53d022d68",
+      "source": "frozen_f30_deploy_tree:iic_c1/digital_iic_diag.py"
+    },
+    {
+      "path": "iic_c1/gpio_mmio32.aarch64.so",
+      "sha256": "356122bb910cfe28f3f423108c5bbc000ef716e18e0c1c0b6ca76bccc7ecb365",
+      "source": "frozen_f30_deploy_tree:iic_c1/gpio_mmio32.aarch64.so"
+    },
+    {
+      "path": "native/gemini_live_compact.aarch64",
+      "sha256": "27c22c7271c573683bcd4f352bbd259b0907dbcb4c69f233ac7b8d53b7b6b270",
+      "source": "frozen_f30_deploy_tree:native/gemini_live_compact.aarch64"
+    },
+    {
+      "path": "runtime_night/supervised_single.py",
+      "sha256": "1d087884a9eb2da91fc66b504a801a0ab800677b4a52bcb0de31e10850f95a6a",
+      "source": "frozen_f30_deploy_tree:runtime_night/supervised_single.py"
+    },
+    {
+      "path": "runtime_night/manual_single.py",
+      "sha256": "f27ddaf222680e6050851d4047aa166650b3e51b1e5868d22b348b5e6601f002",
+      "source": "frozen_f30_deploy_tree:runtime_night/manual_single.py"
+    },
+    {
+      "path": "runtime_control/digital_matrix.py",
+      "sha256": "07307c7b0069636162de09415d23c644e3d75acec4b3d1275bf93075b4844baf",
+      "source": "frozen_f30_deploy_tree:runtime_control/digital_matrix.py"
+    },
+    {
+      "path": "runtime_control/digital_matrix_backend.py",
+      "sha256": "89fd4e3d7d35f1cb097e6cc4f535660b2030eccd21ad05ad562652ef38b3233a",
+      "source": "frozen_f30_deploy_tree:runtime_control/digital_matrix_backend.py"
+    },
+    {
+      "path": "runtime_night/matrix_bench.py",
+      "sha256": "bda080bfaa954e6640786251c6d0d3698fbf3f97e6af99d714b47ad8209bef21",
+      "source": "frozen_f30_deploy_tree:runtime_night/matrix_bench.py"
+    },
+    {
+      "path": "runtime_night/extended_session.py",
+      "sha256": "86b491d8963f3c6b338e3494618e01679247deafb5a0448a1f215f8c7527d598",
+      "source": "frozen_f30_deploy_tree:runtime_night/extended_session.py"
+    },
+    {
+      "path": "native/gemini_live_compact_continuous.aarch64",
+      "sha256": "6eb4aacce1a488b7aee6ac383030322ee2fdab2f42cb6eb828fe9c750c949cd9",
+      "source": "frozen_f30_deploy_tree:native/gemini_live_compact_continuous.aarch64"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "sha256": "aa3c8c46f6f4ae15ac43dcd4f093b64c06fb79f054a99cf2b9fe11d7c4e0c45f",
+      "source": "frozen_f30_deploy_tree:PACKAGE_MANIFEST.json"
+    },
+    {
+      "path": "scripts/board_console.py",
+      "sha256": "d94a943fcf382dfd8a42b995c6150f7d2b5226e991e37c49c8c781259c7421dd",
+      "source": "existing_host_entry:board_console.py",
+      "frozen_source_sha256": "250fb8d4cf7cb3ea9d376515177d9e531684097c6f51026fd31dd88d9a90ef12",
+      "publication_adaptation": "Explicit UART environment selection; or relative metadata-only historical reference paths. Sealed runtime/RTL unchanged."
+    },
+    {
+      "path": "scripts/run_d1_board_stage.py",
+      "sha256": "79097f6620984cc01864633f7d332514f15da6e5a221f61ceb3c4ae3b6931aad",
+      "source": "existing_host_entry:run_d1_board_stage.py"
+    },
+    {
+      "path": "scripts/launch_board_stage_background.py",
+      "sha256": "4e2242562881cbd4bf09b0ce47c8ecadb430393cf1b3a69c1df358c522a0a969",
+      "source": "existing_host_entry:launch_board_stage_background.py"
+    },
+    {
+      "path": "scripts/deploy_files.py",
+      "sha256": "b65f5fd1f62c837d80e4ab64e7a84c7dae47517f394ce7fdfd2cf9e0a1b864c8",
+      "source": "existing_host_entry:deploy_files.py"
+    },
+    {
+      "path": "scripts/upload_receiver_template.py.txt",
+      "sha256": "50533065a03902070252fcb21939efcccb93b0d33c365a358c1ad6206957ca5c",
+      "source": "existing_host_entry:upload_receiver_template.py.txt"
+    },
+    {
+      "path": "runtime_control/native/control_mmio32.c",
+      "sha256": "8d3e38acb672300de55e877b3319cf528216b892b302904f24b580d1bc17a256",
+      "source": "self_authored_native_helper:runtime_control/native/control_mmio32.c"
+    },
+    {
+      "path": "deploy/M2_runtime_package.tar.gz",
+      "sha256": "eb440255e64a4355b622356c8c127f4a97bc76e780dae6413a4490d3bba4fd99",
+      "source": "actual_M2_deployment_runtime_archive"
+    },
+    {
+      "path": "deploy/M2_ARTIFACT_MANIFEST.json",
+      "sha256": "9fc60ea7b595032539a120dec4d105baeddcb485db2bb781a34dbb9b663452ee",
+      "source": "redacted_selected_actual_M2_manifest_fields"
+    }
+  ]
+}

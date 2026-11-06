@@ -1,0 +1,39 @@
+{
+  "schema": "R6_NATIVE_RELEASE_SOURCE_VALIDATION_V1",
+  "status": "PASS_STATIC_SOURCE_CLOSURE_NOT_COMPILE_OR_HARDWARE",
+  "checks": {
+    "bounded_CPP_historical_hash": true,
+    "bounded_queue_historical_hash": true,
+    "continuous_CPP_is_separate": true,
+    "geometry_CPP_matches_original": true,
+    "all_required_build_flags": true,
+    "only_three_environment_keys": true,
+    "source_manifest_excludes_binary_SDK_and_raw_data": true,
+    "no_personal_absolute_paths_or_known_password_or_token": true,
+    "actual_verify_source_closure_returns24": true,
+    "share_geometry_header_identical_for_both_variants": true
+  },
+  "checks_passed": 10,
+  "source_files": 21,
+  "release_helper_files": 3,
+  "source_origin_sha256": "cbd4ab22203d3a5cca8530e507c2a0aa6bd410ff0083393dd8919e314d03a422",
+  "build_entry_sha256": "3f44385fbc3b815b2cf5681d9850524bddbe96eeebf93810980cc791c797d28a",
+  "precompiled_files_present": {
+    "gemini_live_compact.aarch64": {
+      "sha256": "27c22c7271c573683bcd4f352bbd259b0907dbcb4c69f233ac7b8d53b7b6b270",
+      "bytes": 171456,
+      "source_agent_modified": false,
+      "origin": "Precompiled files provided separately by main release process; not part of source-only closure"
+    },
+    "gemini_live_compact_continuous.aarch64": {
+      "sha256": "6eb4aacce1a488b7aee6ac383030322ee2fdab2f42cb6eb828fe9c750c949cd9",
+      "bytes": 237792,
+      "source_agent_modified": false,
+      "origin": "Precompiled files provided separately by main release process; not part of source-only closure"
+    }
+  },
+  "SDK_started": false,
+  "hardware_action": false,
+  "new_portable_entry_compiled": false,
+  "Git_operations": false
+}

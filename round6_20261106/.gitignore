@@ -1,0 +1,6 @@
+build/
+__pycache__/
+*.pyc
+native/build/
+tests/results/
+*.started.json

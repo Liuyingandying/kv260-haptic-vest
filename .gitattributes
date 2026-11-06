@@ -9,3 +9,15 @@
 /unified_20261103/board_20261103/rtl/** -whitespace
 /unified_20261103/README_UNIFIED.md -whitespace
 /unified_20261103/board_20261103/README_BOARD.md -whitespace
+
+# R6 accepted source and sealed payload hashes cover exact bytes, including CRLF.
+/round6_20261106/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve pre-existing formatting in frozen build/runtime snapshots.
+/round6_20261106/fpga_c2/rtl/** -whitespace
+/round6_20261106/fpga_c2/platform/** -whitespace
+/round6_20261106/runtime_night/** -whitespace
+/round6_20261106/runtime_control/** -whitespace
+/round6_20261106/runtime_compact/** -whitespace
+# Preserve two exact frozen evidence-header EOFs; do not rewrite build inputs.
+/round6_20261106/native/bounded60/frame_evidence.hpp -whitespace
+/round6_20261106/native/continuous600/frame_evidence.hpp -whitespace

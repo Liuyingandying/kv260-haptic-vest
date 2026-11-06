@@ -1,0 +1,257 @@
+{
+  "schema": "R6_NATIVE_SOURCE_CLOSURE_V1",
+  "scope": "Self-authored source only; external SDK and real datasets excluded",
+  "files": {
+    "bounded60/compact_observation.cpp": {
+      "sha256": "e1bbcff441fe877011e9e00d79fe87b09821a583c95e92cc75d9ca2d226b4417",
+      "bytes": 290,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/compact_ipc_candidate/compact_observation.cpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "bounded60/gemini_live_compact.cpp": {
+      "sha256": "e95e1343f1fcfe0a69d8e66f5f4fe7ebb15825b911d5e104981fcc8cd4defb9e",
+      "bytes": 20830,
+      "origin": {
+        "kind": "immutable_archive",
+        "archive": "KV260_R6_NIGHT_FINAL_PREHARDWARE_CHECKPOINT_20261105T133731748659Z.zip",
+        "member": "source/native/compact_ipc_candidate/gemini_live_compact.cpp"
+      }
+    },
+    "bounded60/bounded_evidence_writer.hpp": {
+      "sha256": "9547511b1a35d5ed7cee292e3e93223e7444301bb1caa42d66b3b171fcd98814",
+      "bytes": 3826,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/compact_ipc_candidate/bounded_evidence_writer.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "bounded60/compact_observation.hpp": {
+      "sha256": "d4e998935c0678681ce1e5d69887e5f5637503b76a13a4bdc0da64ca817c82bd",
+      "bytes": 9314,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/compact_ipc_candidate/compact_observation.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "bounded60/frame_evidence.hpp": {
+      "sha256": "7b6df3dfb364921cd2e44ea28d61cc29f96f35d2f37ddaabee5d76a0a8f54dd0",
+      "bytes": 6071,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/compact_ipc_candidate/frame_evidence.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "bounded60/geometry_diagnostic.hpp": {
+      "sha256": "643632983d35f1811d48d8d4591b3c43dae8a1e455621101a26ae94a0f7a2613",
+      "bytes": 4688,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/compact_ipc_candidate/geometry_diagnostic.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "bounded60/latest_seqpacket.hpp": {
+      "sha256": "58e5a2c60c56b2d9d17b4e06c15c203c068bfed3c458989d4b387b5a2074488a",
+      "bytes": 5736,
+      "origin": {
+        "kind": "immutable_archive",
+        "archive": "KV260_R6_NIGHT_FINAL_PREHARDWARE_CHECKPOINT_20261105T133731748659Z.zip",
+        "member": "source/native/compact_ipc_candidate/latest_seqpacket.hpp"
+      }
+    },
+    "bounded60/raw_sha256.hpp": {
+      "sha256": "3756603c7d74126e588c6c483b3540d4578c504e69340cfa6326c446bdba2a28",
+      "bytes": 3017,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/compact_ipc_candidate/raw_sha256.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "shared/gemini_geometry.cpp": {
+      "sha256": "c6f6c3772c65ec72f7bceb0604c11f8a2785f3fc8ed7129501e70ae5ef2a1366",
+      "bytes": 18930,
+      "origin": {
+        "kind": "frozen_build_manifest_matched_source",
+        "source_relative": "native/gemini_geometry.cpp",
+        "manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json"
+      }
+    },
+    "shared/gemini_geometry.h": {
+      "sha256": "eea2b03e626b6acad22ba653b9612132cca5476ea3b8da05b3794fc5d555f4d6",
+      "bytes": 1923,
+      "origin": {
+        "kind": "immutable_archive",
+        "archive": "KV260_R6_NIGHT_FINAL_PREHARDWARE_CHECKPOINT_20261105T133731748659Z.zip",
+        "member": "source/native/gemini_geometry.h"
+      }
+    },
+    "bounded60/gemini_geometry.h": {
+      "sha256": "eea2b03e626b6acad22ba653b9612132cca5476ea3b8da05b3794fc5d555f4d6",
+      "bytes": 1923,
+      "origin": {
+        "kind": "immutable_archive",
+        "archive": "KV260_R6_NIGHT_FINAL_PREHARDWARE_CHECKPOINT_20261105T133731748659Z.zip",
+        "member": "source/native/compact_ipc_candidate/gemini_geometry.h"
+      }
+    },
+    "continuous600/gemini_live_compact.cpp": {
+      "sha256": "4d932fc59d4b1496a1fa0ff1c43cf794ef405fa79f6646820440d1ee71c0a3c1",
+      "bytes": 24041,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/gemini_live_compact.cpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/latest_seqpacket.hpp": {
+      "sha256": "b357537812a455299ca0c567888ad5eedd36a8b0fda7abea143fe39d3f2c1604",
+      "bytes": 6132,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/latest_seqpacket.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/capture_run_policy.hpp": {
+      "sha256": "25a6e7813d2ac28a6978b7977601e87dba5f284d6f6d75dbe509a333fbdc1dc5",
+      "bytes": 2868,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/capture_run_policy.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/frame_evidence.hpp": {
+      "sha256": "7b6df3dfb364921cd2e44ea28d61cc29f96f35d2f37ddaabee5d76a0a8f54dd0",
+      "bytes": 6071,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/frame_evidence.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/bounded_evidence_writer.hpp": {
+      "sha256": "9547511b1a35d5ed7cee292e3e93223e7444301bb1caa42d66b3b171fcd98814",
+      "bytes": 3826,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/bounded_evidence_writer.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/compact_observation.cpp": {
+      "sha256": "e1bbcff441fe877011e9e00d79fe87b09821a583c95e92cc75d9ca2d226b4417",
+      "bytes": 290,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/compact_observation.cpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/compact_observation.hpp": {
+      "sha256": "d4e998935c0678681ce1e5d69887e5f5637503b76a13a4bdc0da64ca817c82bd",
+      "bytes": 9314,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/compact_observation.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/geometry_diagnostic.hpp": {
+      "sha256": "643632983d35f1811d48d8d4591b3c43dae8a1e455621101a26ae94a0f7a2613",
+      "bytes": 4688,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/geometry_diagnostic.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/gemini_geometry.h": {
+      "sha256": "eea2b03e626b6acad22ba653b9612132cca5476ea3b8da05b3794fc5d555f4d6",
+      "bytes": 1923,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/gemini_geometry.h",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "continuous600/raw_sha256.hpp": {
+      "sha256": "3756603c7d74126e588c6c483b3540d4578c504e69340cfa6326c446bdba2a28",
+      "bytes": 3017,
+      "origin": {
+        "kind": "continuous_build_source",
+        "source_relative": "native/compact_ipc_candidate/raw_sha256.hpp",
+        "manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json"
+      }
+    },
+    "build_arm64.py": {
+      "sha256": "3f44385fbc3b815b2cf5681d9850524bddbe96eeebf93810980cc791c797d28a",
+      "bytes": 8548,
+      "origin": {
+        "kind": "new_release_helper",
+        "relative_path": "build_arm64.py",
+        "historical_source_match_claim": false
+      }
+    },
+    "README.md": {
+      "sha256": "332612b9d0bf9c70941ec62cf039440dc11bf02197c33bb2b8c5f0ce331d83e4",
+      "bytes": 4129,
+      "origin": {
+        "kind": "new_release_helper",
+        "relative_path": "README.md",
+        "historical_source_match_claim": false
+      }
+    },
+    ".gitignore": {
+      "sha256": "6cf68f361ed9af9c89f8304b81604d87347c3d38348e90f1e5bef55ea8fa99a5",
+      "bytes": 26,
+      "origin": {
+        "kind": "new_release_helper",
+        "relative_path": ".gitignore",
+        "historical_source_match_claim": false
+      }
+    }
+  },
+  "variants": {
+    "bounded60": {
+      "actual_verified_ELF_sha256": "27c22c7271c573683bcd4f352bbd259b0907dbcb4c69f233ac7b8d53b7b6b270",
+      "build_manifest_relative": "native/compact_ipc_candidate/COMPACT_BUILD_RESULT.json",
+      "exact_recorded_inputs_verified": true,
+      "historical_changed_files_recovered": [
+        "gemini_live_compact.cpp",
+        "latest_seqpacket.hpp"
+      ],
+      "note": "All9 recorded inputs hash-matched; two .h headers additionally checked against immutable archive."
+    },
+    "continuous600": {
+      "actual_verified_ELF_sha256": "6eb4aacce1a488b7aee6ac383030322ee2fdab2f42cb6eb828fe9c750c949cd9",
+      "build_manifest_relative": "native/compact_ipc_candidate/build_20261105T110038812278Z/gemini_live_compact_continuous_20261106T081525576175Z.BUILD_RESULT.json",
+      "reused_geometry_object_sha256": "e62fb778b67ebeb3b3421be03c2827dbd1a01e56d6779cb08e7849fe513229fe",
+      "geometry_source_sha256": "c6f6c3772c65ec72f7bceb0604c11f8a2785f3fc8ed7129501e70ae5ef2a1366",
+      "note": "Separate source variant; not presented as identical to bounded60."
+    }
+  },
+  "external_dependencies": {
+    "SDK": "Orbbec SDK1.10.37 AArch64, supplied separately",
+    "SDK_library_sha256": "18c09b76a0f2237d127ebf9fa131ee2ef0f3ceb5fc06f2639f636e170b6731a1",
+    "SDK_configuration_sha256": "3f46bc5ff10ef4bea78def33d0b01e105292c9de3a70f7d3198084a8584a5073",
+    "toolchain": "C++17 GNU-compatible AArch64/Linux compiler and matching Ubuntu24 AArch64 sysroot"
+  },
+  "validation": {
+    "local_quoted_include_closure": "PASS",
+    "source_hashes": "PASS",
+    "new_portable_entry_compiled_here": false,
+    "SDK_started": false,
+    "hardware_action": false,
+    "bit_identical_rebuild_claim": false,
+    "new_portable_entry_syntax": "PASS",
+    "private_absolute_paths": "NONE_IN_RELEASE_FILES"
+  }
+}

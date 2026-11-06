@@ -1,0 +1,25 @@
+{
+  "schema": "R6_GPIO_MMIO32_SOURCE_ORIGIN_V1",
+  "source_original_relative": "source/native/mmio/gpio_mmio32.c",
+  "source_copy": "gpio_mmio32.c",
+  "source_sha256": "d76ec759237a29e8750d3e1d596901f233f15d9f3f0561c1b45c6edc7996505b",
+  "copy_sha256": "d76ec759237a29e8750d3e1d596901f233f15d9f3f0561c1b45c6edc7996505b",
+  "recipe_original_relative": "source/native/mmio/rebuild_helpers.py",
+  "recipe_original_sha256": "e0dc8a34f5cdd56c6139fe89a610984bd8fdc423262d42de13faf480308bcccc",
+  "build_flags": [
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fPIC",
+    "-shared",
+    "-nostdlib",
+    "-Wl,--build-id=none"
+  ],
+  "default_compiler": "R6_AARCH64_GCC or aarch64-linux-gnu-gcc on PATH",
+  "required_output": "--out NEW_DIRECTORY; pre-existing output directories refused",
+  "build_performed_this_change": false,
+  "hardware_access": false,
+  "deployed_helper_unchanged": true
+}
